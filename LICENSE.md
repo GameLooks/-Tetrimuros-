@@ -8,4 +8,4 @@
  as the name is changed. 
 
             DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE 
-   TERM
+   TERMS AND CONDITIONS FOR COPYIN
