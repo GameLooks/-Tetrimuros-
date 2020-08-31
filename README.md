@@ -48,3 +48,39 @@ client := coincap.NewClient(nil)
 params := &AssetsRequest{
 	Search: "BTC",
 	Limit:  4,
+	Offset: 1,
+}
+assets, timestamp, err := client.Assets(params)
+```
+
+### Get Historical Data for an Asset ###
+
+```go
+client := coincap.NewClient(nil)
+
+// setup the time range
+end := time.Now()
+start := now.Add(-time.Hour * 2)
+
+params := &coincap.AssetHistoryRequest{
+	Interval: coincap.FifteenMinutes,
+	Start:    &coincap.Timestamp{Time: start},
+	End:      &coincap.Timestamp{Time: end},
+}
+history, timestamp, err := client.AssetHistoryByID("bitcoin", params)
+if err != nil {
+	log.Fatal(err)
+}
+```
+
+### Get Rates of Various Currencies to USD ###
+
+```go
+client := coincap.NewClient(nil)
+
+rates, timestamp, err := client.Rates()
+if err != nil {
+	t.Fatal(err)
+}
+
+/*
