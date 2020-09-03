@@ -120,3 +120,39 @@ rate, timestamp, err := client.RateByID("bitcoin")
 ```
 
 ### Get Information on Exchanges ###
+
+```go
+client := coincap.NewClient(nil)
+
+exchanges, timestamp, err := client.Exchanges()
+if err != nil {
+	t.Fatal(err)
+}
+```
+
+### Get Exchange Information by ID ###
+
+```go
+client := coincap.NewClient(nil)
+
+exchange, timestamp, err := client.ExchangeByID("gdax")
+if err != nil {
+	t.Fatal(err)
+}
+```
+
+### Get Candle Data ###
+```go
+client := coincap.NewClient(nil)
+
+params := &CandlesRequest{
+	ExchangeID: "poloniex",
+	BaseID:     "ethereum",
+	QuoteID:    "bitcoin",
+	Limit:      100,
+	Offset:     1,
+	Interval:   coincap.FiveMinutes,
+}
+candles, timestamp, err := client.Candles(params)
+if err != nil {
+	t.Fatal(err)
