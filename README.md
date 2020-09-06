@@ -156,3 +156,11 @@ params := &CandlesRequest{
 candles, timestamp, err := client.Candles(params)
 if err != nil {
 	t.Fatal(err)
+}
+```
+
+## TODO ##
+* Implement websocket endpoints
+
+## Contributing ##
+Contributions and pull requests welcome
