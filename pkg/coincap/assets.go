@@ -3,4 +3,7 @@ package coincap
 import (
 	"encoding/json"
 	"net/http"
-	"strcon
+	"strconv"
+)
+
+// AssetsRequest conta
