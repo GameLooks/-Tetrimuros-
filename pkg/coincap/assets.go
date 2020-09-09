@@ -6,4 +6,4 @@ import (
 	"strconv"
 )
 
-// AssetsRequest conta
+// AssetsRequest contains the paramaters for modifyi
