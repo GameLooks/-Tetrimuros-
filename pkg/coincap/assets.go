@@ -6,4 +6,5 @@ import (
 	"strconv"
 )
 
-// AssetsRequest contains the paramaters for modifyi
+// AssetsRequest contains the paramaters for modifying a query to
+// the "/assets" endp
