@@ -7,4 +7,4 @@ import (
 )
 
 // AssetsRequest contains the paramaters for modifying a query to
-// the "/assets" endp
+// the "/assets" endpoint. Search can be a symbol (BTC)
