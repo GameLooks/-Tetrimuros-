@@ -9,4 +9,4 @@ import (
 // AssetsRequest contains the paramaters for modifying a query to
 // the "/assets" endpoint. Search can be a symbol (BTC) or an asset id (bitcoin)
 type AssetsRequest struct {
-	Sea
+	Search string `json:"search,omitempty"
