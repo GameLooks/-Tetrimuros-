@@ -10,4 +10,5 @@ import (
 // the "/assets" endpoint. Search can be a symbol (BTC) or an asset id (bitcoin)
 type AssetsRequest struct {
 	Search string `json:"search,omitempty"` // search by asset id (bitcoin) or symbol (BTC)
-	Limit  int    `json:"limit,omitempty"`  // limit number
+	Limit  int    `json:"limit,omitempty"`  // limit number of returned results (Max: 2000)
+	Of
