@@ -11,4 +11,7 @@ import (
 type AssetsRequest struct {
 	Search string `json:"search,omitempty"` // search by asset id (bitcoin) or symbol (BTC)
 	Limit  int    `json:"limit,omitempty"`  // limit number of returned results (Max: 2000)
-	Offset int    `json:"offset,omitempty"` // skip the first N entries of t
+	Offset int    `json:"offset,omitempty"` // skip the first N entries of the result set
+}
+
+// Asset conta
