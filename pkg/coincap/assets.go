@@ -14,4 +14,4 @@ type AssetsRequest struct {
 	Offset int    `json:"offset,omitempty"` // skip the first N entries of the result set
 }
 
-// Asset conta
+// Asset contains various information ab
