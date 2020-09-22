@@ -14,4 +14,6 @@ type AssetsRequest struct {
 	Offset int    `json:"offset,omitempty"` // skip the first N entries of the result set
 }
 
-// Asset contains various information about a given CoinCap asset such as Bi
+// Asset contains various information about a given CoinCap asset such as Bitcoin
+type Asset struct {
+	ID       
