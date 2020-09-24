@@ -17,4 +17,5 @@ type AssetsRequest struct {
 // Asset contains various information about a given CoinCap asset such as Bitcoin
 type Asset struct {
 	ID                string `json:"id"`                // unique identifier for asset
-	Rank              string `json:"rank"`              // rank in terms of the ass
+	Rank              string `json:"rank"`              // rank in terms of the asset's market cap
+	Symbol            str
