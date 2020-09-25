@@ -18,4 +18,4 @@ type AssetsRequest struct {
 type Asset struct {
 	ID                string `json:"id"`                // unique identifier for asset
 	Rank              string `json:"rank"`              // rank in terms of the asset's market cap
-	Symbol            string `json:"symbol"`        
+	Symbol            string `json:"symbol"`            // common symbol to identify the asset
