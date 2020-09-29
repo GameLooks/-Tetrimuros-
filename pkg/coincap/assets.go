@@ -20,4 +20,5 @@ type Asset struct {
 	Rank              string `json:"rank"`              // rank in terms of the asset's market cap
 	Symbol            string `json:"symbol"`            // common symbol to identify the asset
 	Name              string `json:"name"`              // proper name for asset
-	Supply            string `json:"supply"`            // available supply for 
+	Supply            string `json:"supply"`            // available supply for trading
+	MaxSupply         stri
