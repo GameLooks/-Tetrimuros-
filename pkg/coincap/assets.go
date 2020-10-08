@@ -21,4 +21,4 @@ type Asset struct {
 	Symbol            string `json:"symbol"`            // common symbol to identify the asset
 	Name              string `json:"name"`              // proper name for asset
 	Supply            string `json:"supply"`            // available supply for trading
-	MaxSupply         string `json:"maxSupply"`   
+	MaxSupply         string `json:"maxSupply"`         // total quantity of asset 
