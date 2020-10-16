@@ -23,4 +23,5 @@ type Asset struct {
 	Supply            string `json:"supply"`            // available supply for trading
 	MaxSupply         string `json:"maxSupply"`         // total quantity of asset issued
 	MarketCapUsd      string `json:"marketCapUsd"`      // supply x price
-	VolumeUsd24Hr     string `json:"volumeUsd24Hr"`     // quantity of trading volume in 
+	VolumeUsd24Hr     string `json:"volumeUsd24Hr"`     // quantity of trading volume in USD over last 24 hours
+	PriceU
