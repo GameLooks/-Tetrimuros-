@@ -24,4 +24,5 @@ type Asset struct {
 	MaxSupply         string `json:"maxSupply"`         // total quantity of asset issued
 	MarketCapUsd      string `json:"marketCapUsd"`      // supply x price
 	VolumeUsd24Hr     string `json:"volumeUsd24Hr"`     // quantity of trading volume in USD over last 24 hours
-	PriceUsd          string `json:"priceUsd"`          // volume weighted price of t
+	PriceUsd          string `json:"priceUsd"`          // volume weighted price of the asset in USD
+	ChangePercent24Hr str
