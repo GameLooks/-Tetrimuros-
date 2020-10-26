@@ -25,4 +25,4 @@ type Asset struct {
 	MarketCapUsd      string `json:"marketCapUsd"`      // supply x price
 	VolumeUsd24Hr     string `json:"volumeUsd24Hr"`     // quantity of trading volume in USD over last 24 hours
 	PriceUsd          string `json:"priceUsd"`          // volume weighted price of the asset in USD
-	ChangePercent24Hr string `json:"changePe
+	ChangePercent24Hr string `json:"changePercent24Hr"` // percent ch
