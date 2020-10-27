@@ -26,4 +26,4 @@ type Asset struct {
 	VolumeUsd24Hr     string `json:"volumeUsd24Hr"`     // quantity of trading volume in USD over last 24 hours
 	PriceUsd          string `json:"priceUsd"`          // volume weighted price of the asset in USD
 	ChangePercent24Hr string `json:"changePercent24Hr"` // percent change in value in the last 24 hours
-	Vw
+	Vwap24Hr          string `json:"vw
