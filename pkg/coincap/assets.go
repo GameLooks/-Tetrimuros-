@@ -29,4 +29,5 @@ type Asset struct {
 	Vwap24Hr          string `json:"vwap24Hr"`          // Volume Weighted Average Price in the last 24 hours
 }
 
-// Assets returns a list of CoinCap Asset entries filtered by the reques
+// Assets returns a list of CoinCap Asset entries filtered by the request's
+// search criteria and 
