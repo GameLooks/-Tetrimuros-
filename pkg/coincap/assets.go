@@ -33,4 +33,5 @@ type Asset struct {
 // search criteria and a timestamp
 func (c *Client) Assets(reqParams *AssetsRequest) ([]*Asset, *Timestamp, error) {
 
-	// Prepare the query a
+	// Prepare the query and encode optional parameters
+	
