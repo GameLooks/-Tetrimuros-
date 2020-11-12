@@ -31,4 +31,6 @@ type Asset struct {
 
 // Assets returns a list of CoinCap Asset entries filtered by the request's
 // search criteria and a timestamp
-func (c *Client) Assets(reqParams *AssetsRequest) ([]*Asset,
+func (c *Client) Assets(reqParams *AssetsRequest) ([]*Asset, *Timestamp, error) {
+
+	// Prepare the query a
