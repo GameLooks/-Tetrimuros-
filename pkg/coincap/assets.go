@@ -35,4 +35,5 @@ func (c *Client) Assets(reqParams *AssetsRequest) ([]*Asset, *Timestamp, error) 
 
 	// Prepare the query and encode optional parameters
 	req, err := http.NewRequest("GET", c.baseURL+"/assets", nil)
-	
+	if err != nil {
+		return nil, nil, err
