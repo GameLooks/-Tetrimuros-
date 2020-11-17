@@ -41,4 +41,4 @@ func (c *Client) Assets(reqParams *AssetsRequest) ([]*Asset, *Timestamp, error) 
 	params := req.URL.Query()
 	params.Add("search", reqParams.Search)
 	if reqParams.Limit > 0 {
-		
+		params.Add("limit", strconv.Itoa(reqParams.L
