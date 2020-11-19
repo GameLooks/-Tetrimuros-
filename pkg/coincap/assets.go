@@ -44,4 +44,6 @@ func (c *Client) Assets(reqParams *AssetsRequest) ([]*Asset, *Timestamp, error) 
 		params.Add("limit", strconv.Itoa(reqParams.Limit))
 	}
 	if reqParams.Offset > 0 {
-		params.Add("offset", strconv.Itoa(reqPa
+		params.Add("offset", strconv.Itoa(reqParams.Offset))
+	}
+	req.URL
