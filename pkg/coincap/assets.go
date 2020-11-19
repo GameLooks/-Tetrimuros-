@@ -46,4 +46,6 @@ func (c *Client) Assets(reqParams *AssetsRequest) ([]*Asset, *Timestamp, error) 
 	if reqParams.Offset > 0 {
 		params.Add("offset", strconv.Itoa(reqParams.Offset))
 	}
-	req.URL
+	req.URL.RawQuery = params.Encode()
+
+	// make t
