@@ -48,4 +48,5 @@ func (c *Client) Assets(reqParams *AssetsRequest) ([]*Asset, *Timestamp, error) 
 	}
 	req.URL.RawQuery = params.Encode()
 
-	// make t
+	// make the request
+	ccResp, err := c.f
