@@ -49,4 +49,5 @@ func (c *Client) Assets(reqParams *AssetsRequest) ([]*Asset, *Timestamp, error) 
 	req.URL.RawQuery = params.Encode()
 
 	// make the request
-	ccResp, err := c.f
+	ccResp, err := c.fetchAndParse(req)
+	if err != nil {
