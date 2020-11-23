@@ -54,4 +54,4 @@ func (c *Client) Assets(reqParams *AssetsRequest) ([]*Asset, *Timestamp, error) 
 		return nil, nil, err
 	}
 
-	// Unma
+	// Unmarshal the deferred json from the 
