@@ -58,4 +58,4 @@ func (c *Client) Assets(reqParams *AssetsRequest) ([]*Asset, *Timestamp, error) 
 	var assets []*Asset
 	json.Unmarshal(*ccResp.Data, &assets)
 
-	retur
+	return assets, ccResp.Timestamp, ni
