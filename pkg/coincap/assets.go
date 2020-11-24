@@ -56,4 +56,6 @@ func (c *Client) Assets(reqParams *AssetsRequest) ([]*Asset, *Timestamp, error) 
 
 	// Unmarshal the deferred json from the data field
 	var assets []*Asset
-	json.Unmarsh
+	json.Unmarshal(*ccResp.Data, &assets)
+
+	retur
