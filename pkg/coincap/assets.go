@@ -61,4 +61,5 @@ func (c *Client) Assets(reqParams *AssetsRequest) ([]*Asset, *Timestamp, error) 
 	return assets, ccResp.Timestamp, nil
 }
 
-// AssetByID requests an 
+// AssetByID requests an asset by its CoinCap ID
+func 
