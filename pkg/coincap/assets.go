@@ -62,4 +62,4 @@ func (c *Client) Assets(reqParams *AssetsRequest) ([]*Asset, *Timestamp, error) 
 }
 
 // AssetByID requests an asset by its CoinCap ID
-func 
+func (c *Client) AssetByID(id string) (*As
