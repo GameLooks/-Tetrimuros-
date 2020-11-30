@@ -66,4 +66,7 @@ func (c *Client) AssetByID(id string) (*Asset, *Timestamp, error) {
 
 	req, err := http.NewRequest("GET", c.baseURL+"/assets/"+id, nil)
 	if err != nil {
-	
+		return nil, nil, err
+	}
+
+	// 
