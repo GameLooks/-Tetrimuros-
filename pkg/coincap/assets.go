@@ -64,4 +64,6 @@ func (c *Client) Assets(reqParams *AssetsRequest) ([]*Asset, *Timestamp, error) 
 // AssetByID requests an asset by its CoinCap ID
 func (c *Client) AssetByID(id string) (*Asset, *Timestamp, error) {
 
-	req, err := http.NewRequest("GET", c.baseURL+"/assets/"+
+	req, err := http.NewRequest("GET", c.baseURL+"/assets/"+id, nil)
+	if err != nil {
+	
