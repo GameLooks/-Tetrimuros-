@@ -69,4 +69,5 @@ func (c *Client) AssetByID(id string) (*Asset, *Timestamp, error) {
 		return nil, nil, err
 	}
 
-	// 
+	// make the request
+	ccResp, err := c.fe
