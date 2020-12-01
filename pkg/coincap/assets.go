@@ -70,4 +70,6 @@ func (c *Client) AssetByID(id string) (*Asset, *Timestamp, error) {
 	}
 
 	// make the request
-	ccResp, err := c.fe
+	ccResp, err := c.fetchAndParse(req)
+	if err != nil {
+	
