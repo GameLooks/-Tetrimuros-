@@ -75,4 +75,4 @@ func (c *Client) AssetByID(id string) (*Asset, *Timestamp, error) {
 		return nil, nil, err
 	}
 
-	// Unmar
+	// Unmarshal the deferred json from the dat
