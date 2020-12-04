@@ -77,4 +77,6 @@ func (c *Client) AssetByID(id string) (*Asset, *Timestamp, error) {
 
 	// Unmarshal the deferred json from the data field
 	asset := new(Asset)
-	json.Unmar
+	json.Unmarshal(*ccResp.Data, &asset)
+
+	return asse
