@@ -79,4 +79,7 @@ func (c *Client) AssetByID(id string) (*Asset, *Timestamp, error) {
 	asset := new(Asset)
 	json.Unmarshal(*ccResp.Data, &asset)
 
-	return asse
+	return asset, ccResp.Timestamp, nil
+}
+
+// Asset
