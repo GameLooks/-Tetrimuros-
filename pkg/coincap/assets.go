@@ -82,4 +82,4 @@ func (c *Client) AssetByID(id string) (*Asset, *Timestamp, error) {
 	return asset, ccResp.Timestamp, nil
 }
 
-// Asset
+// AssetHistoryRequest contains th
