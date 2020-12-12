@@ -85,4 +85,4 @@ func (c *Client) AssetByID(id string) (*Asset, *Timestamp, error) {
 // AssetHistoryRequest contains the paramaters for modifying a query to
 // the "/assets/{{id}}/history" endpoint.
 type AssetHistoryRequest struct {
-	Interval Interval  
+	Interval Interval   `json:"interval"`         // p
