@@ -86,4 +86,4 @@ func (c *Client) AssetByID(id string) (*Asset, *Timestamp, error) {
 // the "/assets/{{id}}/history" endpoint.
 type AssetHistoryRequest struct {
 	Interval Interval   `json:"interval"`         // point-in-time interval. minute, hour, and day. Allowed intervals (m1, m15, h1, d1)
-	Start    *Timestamp `json:"start,omitempty"`  // start 
+	Start    *Timestamp `json:"start,omitempty"`  // start time in unix milliseconds TODO: I should prob
