@@ -88,4 +88,4 @@ type AssetHistoryRequest struct {
 	Interval Interval   `json:"interval"`         // point-in-time interval. minute, hour, and day. Allowed intervals (m1, m15, h1, d1)
 	Start    *Timestamp `json:"start,omitempty"`  // start time in unix milliseconds TODO: I should probably use time.Time or Timestamp here
 	End      *Timestamp `json:"end,omitempty"`    // end time in unix milliseconds TODO: same as above
-	Limit    int 
+	Limit    int        `json:"limit,omitempty"`  //
