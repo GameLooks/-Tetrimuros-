@@ -89,4 +89,7 @@ type AssetHistoryRequest struct {
 	Start    *Timestamp `json:"start,omitempty"`  // start time in unix milliseconds TODO: I should probably use time.Time or Timestamp here
 	End      *Timestamp `json:"end,omitempty"`    // end time in unix milliseconds TODO: same as above
 	Limit    int        `json:"limit,omitempty"`  // maximum number of results to return
-	Offset   int        `json:"offset,omitempty"` // skip some of t
+	Offset   int        `json:"offset,omitempty"` // skip some of the returned results
+}
+
+// Asset
