@@ -93,4 +93,5 @@ type AssetHistoryRequest struct {
 }
 
 // AssetHistory contains the USD price of an asset at a given timestamp
-t
+type AssetHistory struct {
+	PriceUSD s
