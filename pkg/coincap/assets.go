@@ -92,4 +92,5 @@ type AssetHistoryRequest struct {
 	Offset   int        `json:"offset,omitempty"` // skip some of the returned results
 }
 
-// AssetHistory contains the USD price of an 
+// AssetHistory contains the USD price of an asset at a given timestamp
+t
