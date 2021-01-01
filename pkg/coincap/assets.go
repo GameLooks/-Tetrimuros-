@@ -94,4 +94,4 @@ type AssetHistoryRequest struct {
 
 // AssetHistory contains the USD price of an asset at a given timestamp
 type AssetHistory struct {
-	PriceUSD s
+	PriceUSD string    `json:"priceUsd"` // volu
