@@ -98,4 +98,4 @@ type AssetHistory struct {
 	Time     Timestamp `json:"time"`     // Timestamp correlating to the given price
 }
 
-// AssetHistoryByID re
+// AssetHistoryByID returns USD price history of
