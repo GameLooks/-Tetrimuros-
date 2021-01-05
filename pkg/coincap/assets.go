@@ -98,4 +98,5 @@ type AssetHistory struct {
 	Time     Timestamp `json:"time"`     // Timestamp correlating to the given price
 }
 
-// AssetHistoryByID returns USD price history of
+// AssetHistoryByID returns USD price history of a given asset.
+// If no interval 
