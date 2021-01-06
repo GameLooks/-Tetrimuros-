@@ -99,4 +99,4 @@ type AssetHistory struct {
 }
 
 // AssetHistoryByID returns USD price history of a given asset.
-// If no interval 
+// If no interval is specified 1 hour (h1) 
