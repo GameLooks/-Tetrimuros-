@@ -100,4 +100,4 @@ type AssetHistory struct {
 
 // AssetHistoryByID returns USD price history of a given asset.
 // If no interval is specified 1 hour (h1) is chosen as the default.
-f
+func (c *Client) AssetHistoryByI
