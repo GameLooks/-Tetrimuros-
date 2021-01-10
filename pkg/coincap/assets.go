@@ -102,4 +102,4 @@ type AssetHistory struct {
 // If no interval is specified 1 hour (h1) is chosen as the default.
 func (c *Client) AssetHistoryByID(id string, reqParams *AssetHistoryRequest) ([]*AssetHistory, *Timestamp, error) {
 
-	// Defa
+	// Default interval to an hour if none was p
