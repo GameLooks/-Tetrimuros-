@@ -103,4 +103,5 @@ type AssetHistory struct {
 func (c *Client) AssetHistoryByID(id string, reqParams *AssetHistoryRequest) ([]*AssetHistory, *Timestamp, error) {
 
 	// Default interval to an hour if none was provided
-	if reqParams.I
+	if reqParams.Interval == "" {
+		reqParams.
