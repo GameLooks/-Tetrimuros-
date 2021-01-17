@@ -108,4 +108,4 @@ func (c *Client) AssetHistoryByID(id string, reqParams *AssetHistoryRequest) ([]
 	}
 
 	// Prepare the query
-	re
+	req, err := http.NewRequest("
