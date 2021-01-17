@@ -104,4 +104,8 @@ func (c *Client) AssetHistoryByID(id string, reqParams *AssetHistoryRequest) ([]
 
 	// Default interval to an hour if none was provided
 	if reqParams.Interval == "" {
-		reqParams.
+		reqParams.Interval = Hour
+	}
+
+	// Prepare the query
+	re
