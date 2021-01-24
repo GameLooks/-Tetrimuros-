@@ -110,4 +110,7 @@ func (c *Client) AssetHistoryByID(id string, reqParams *AssetHistoryRequest) ([]
 	// Prepare the query
 	req, err := http.NewRequest("GET", c.baseURL+"/assets/"+id+"/history", nil)
 	if err != nil {
-		return n
+		return nil, nil, err
+	}
+
+	// encode optio
