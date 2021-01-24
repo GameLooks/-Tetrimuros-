@@ -113,4 +113,5 @@ func (c *Client) AssetHistoryByID(id string, reqParams *AssetHistoryRequest) ([]
 		return nil, nil, err
 	}
 
-	// encode optio
+	// encode optional parameters
+	params := req.URL
