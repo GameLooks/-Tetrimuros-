@@ -117,4 +117,4 @@ func (c *Client) AssetHistoryByID(id string, reqParams *AssetHistoryRequest) ([]
 	params := req.URL.Query()
 	params.Add("interval", string(reqParams.Interval))
 	if reqParams.Start != nil {
-		params.Add
+		params.Add("start", reqParams.St
