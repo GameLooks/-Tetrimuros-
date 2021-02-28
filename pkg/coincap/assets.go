@@ -123,4 +123,4 @@ func (c *Client) AssetHistoryByID(id string, reqParams *AssetHistoryRequest) ([]
 		params.Add("end", reqParams.End.String())
 	}
 	if reqParams.Limit > 0 {
-		params.Add(
+		params.Add("limit", strconv.Itoa(reqPara
