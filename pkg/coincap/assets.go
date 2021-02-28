@@ -120,4 +120,4 @@ func (c *Client) AssetHistoryByID(id string, reqParams *AssetHistoryRequest) ([]
 		params.Add("start", reqParams.Start.String())
 	}
 	if reqParams.End != nil {
-		params
+		params.Add("end", reqParams.End.
