@@ -125,4 +125,5 @@ func (c *Client) AssetHistoryByID(id string, reqParams *AssetHistoryRequest) ([]
 	if reqParams.Limit > 0 {
 		params.Add("limit", strconv.Itoa(reqParams.Limit))
 	}
-	if reqParams.Offset
+	if reqParams.Offset > 0 {
+		params.Add("offset", strc
