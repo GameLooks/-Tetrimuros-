@@ -128,4 +128,6 @@ func (c *Client) AssetHistoryByID(id string, reqParams *AssetHistoryRequest) ([]
 	if reqParams.Offset > 0 {
 		params.Add("offset", strconv.Itoa(reqParams.Offset))
 	}
-	req.U
+	req.URL.RawQuery = params.Encode()
+
+	//
