@@ -130,4 +130,5 @@ func (c *Client) AssetHistoryByID(id string, reqParams *AssetHistoryRequest) ([]
 	}
 	req.URL.RawQuery = params.Encode()
 
-	//
+	// make the request
+	ccResp, err :=
