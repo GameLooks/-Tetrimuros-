@@ -132,4 +132,8 @@ func (c *Client) AssetHistoryByID(id string, reqParams *AssetHistoryRequest) ([]
 
 	// make the request
 	ccResp, err := c.fetchAndParse(req)
-	if err != nil
+	if err != nil {
+		return nil, nil, err
+	}
+
+	//
