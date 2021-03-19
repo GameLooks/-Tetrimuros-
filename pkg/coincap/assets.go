@@ -137,4 +137,5 @@ func (c *Client) AssetHistoryByID(id string, reqParams *AssetHistoryRequest) ([]
 	}
 
 	// Unmarshal the deferred json from the data field
-	var history
+	var history []*AssetHistory
+	json.Unmarshal(*
