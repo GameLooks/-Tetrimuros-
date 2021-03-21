@@ -37,3 +37,27 @@ func TestAssets(t *testing.T) {
 	}
 
 }
+
+func TestAssetsLive(t *testing.T) {
+	// hit the actual API
+	client := NewClient(nil)
+	params := &AssetsRequest{
+		Search: "BTC",
+		Limit:  4,
+		Offset: 1,
+	}
+	assets, _, err := client.Assets(params)
+	if err != nil {
+		t.Fatal(err)
+	}
+	if len(assets) == 0 {
+		t.Errorf("No assets were returned")
+	}
+}
+
+func TestAssetByIDLive(t *testing.T) {
+	// hit the actual API
+	client := NewClient(nil)
+	_, _, err := client.AssetByID("ethereum")
+	if err != nil {
+		t.Fatal(err)
