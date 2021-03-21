@@ -1,0 +1,4 @@
+
+package coincap
+
+import (

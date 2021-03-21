@@ -140,4 +140,5 @@ func (c *Client) AssetHistoryByID(id string, reqParams *AssetHistoryRequest) ([]
 	var history []*AssetHistory
 	json.Unmarshal(*ccResp.Data, &history)
 
-	return h
+	return history, ccResp.Timestamp, nil
+}
