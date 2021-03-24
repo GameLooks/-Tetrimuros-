@@ -61,3 +61,23 @@ func TestAssetByIDLive(t *testing.T) {
 	_, _, err := client.AssetByID("ethereum")
 	if err != nil {
 		t.Fatal(err)
+	}
+}
+
+func TestASsetHistoryLive(t *testing.T) {
+	// hit the actual API
+	client := NewClient(nil)
+
+	// Get 2 hours worth of candles
+	now := time.Now()
+	prev := now.Add(-time.Hour * 2)
+	params := &AssetHistoryRequest{
+		Interval: FifteenMinutes,
+		Start:    &Timestamp{Time: prev},
+		End:      &Timestamp{Time: now},
+	}
+	_, _, err := client.AssetHistoryByID("bitcoin", params)
+	if err != nil {
+		log.Fatal(err)
+	}
+}
