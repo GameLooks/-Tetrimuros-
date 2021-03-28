@@ -51,3 +51,36 @@ func (c *Client) Candles(reqParams *CandlesRequest) ([]*Candle, *Timestamp, erro
 
 	// Prepare the query
 	req, err := http.NewRequest("GET", c.baseURL+"/candles", nil)
+	if err != nil {
+		return nil, nil, err
+	}
+
+	// encode parameters
+	params := req.URL.Query()
+	params.Add("exchange", reqParams.ExchangeID)
+	params.Add("baseId", reqParams.BaseID)
+	params.Add("quoteId", reqParams.QuoteID)
+	params.Add("interval", string(reqParams.Interval))
+	if reqParams.Start > 0 {
+		params.Add("start", strconv.Itoa(reqParams.Start))
+	}
+	if reqParams.End > 0 {
+		params.Add("end", strconv.Itoa(reqParams.End))
+	}
+	if reqParams.Limit > 0 {
+		params.Add("limit", strconv.Itoa(reqParams.Limit))
+	}
+	if reqParams.Offset > 0 {
+		params.Add("offset", strconv.Itoa(reqParams.Offset))
+	}
+	req.URL.RawQuery = params.Encode()
+
+	// make the request
+	ccResp, err := c.fetchAndParse(req)
+	if err != nil {
+		return nil, nil, err
+	}
+
+	// Unmarshal the deferred json from the data field
+	var candles []*Candle
+	json.Unmarshal(*ccResp.Data, &candles)
