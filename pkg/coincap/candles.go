@@ -21,3 +21,33 @@ type CandlesRequest struct {
 }
 
 // Candle represets historic market performance for an asset over a given timeframe
+type Candle struct {
+	Open   string    `json:"open"`   // the price (quote) at which the first transaction was completed in a given time period
+	High   string    `json:"high"`   // the top price (quote) at which the base was traded during the time period
+	Low    string    `json:"low"`    // the bottom price (quote) at which the base was traded during the time period
+	Close  string    `json:"close"`  // the price (quote) at which the last transaction was completed in a given time period
+	Volume string    `json:"volume"` // the amount of base asset traded in the given time period
+	Period Timestamp `json:"period"` // timestamp for starting of that time period
+}
+
+// Candles returns all the market candle data for the provided exchange and parameters
+// The fields ExchangeID, BaseID, QuoteID, and Interval are required by the API
+func (c *Client) Candles(reqParams *CandlesRequest) ([]*Candle, *Timestamp, error) {
+
+	// check required params
+	var err error
+	if reqParams.ExchangeID == "" {
+		err = fmt.Errorf("ExchangeID is required")
+	} else if reqParams.BaseID == "" {
+		err = fmt.Errorf("BaseID is required")
+	} else if reqParams.QuoteID == "" {
+		err = fmt.Errorf("QuoteID is required")
+	} else if string(reqParams.Interval) == "" {
+		err = fmt.Errorf("Interval is required")
+	}
+	if err != nil {
+		return nil, nil, err
+	}
+
+	// Prepare the query
+	req, err := http.NewRequest("GET", c.baseURL+"/candles", nil)
