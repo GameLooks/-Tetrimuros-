@@ -84,3 +84,6 @@ func (c *Client) Candles(reqParams *CandlesRequest) ([]*Candle, *Timestamp, erro
 	// Unmarshal the deferred json from the data field
 	var candles []*Candle
 	json.Unmarshal(*ccResp.Data, &candles)
+
+	return candles, ccResp.Timestamp, nil
+}
