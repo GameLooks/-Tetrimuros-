@@ -6,4 +6,4 @@ import (
 	"testing"
 )
 
-fun
+func TestCandles(t *testin
