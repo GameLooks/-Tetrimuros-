@@ -8,4 +8,5 @@ import (
 
 func TestCandles(t *testing.T) {
 	teardown := setup()
-	defer te
+	defer teardown()
+	r.HandleFunc("/candle
