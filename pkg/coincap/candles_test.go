@@ -6,4 +6,6 @@ import (
 	"testing"
 )
 
-func TestCandles(t *testin
+func TestCandles(t *testing.T) {
+	teardown := setup()
+	defer te
