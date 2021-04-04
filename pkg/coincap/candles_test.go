@@ -9,4 +9,4 @@ import (
 func TestCandles(t *testing.T) {
 	teardown := setup()
 	defer teardown()
-	r.HandleFunc("/candle
+	r.HandleFunc("/candles", func(w http.ResponseWriter, r *http.
