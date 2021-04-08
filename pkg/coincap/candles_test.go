@@ -12,4 +12,4 @@ func TestCandles(t *testing.T) {
 	r.HandleFunc("/candles", func(w http.ResponseWriter, r *http.Request) {
 		w.Header().Set("Content-Type", "application/json")
 		w.WriteHeader(http.StatusOK)
-	
+		fmt.Fprint(w, fixture("candl
