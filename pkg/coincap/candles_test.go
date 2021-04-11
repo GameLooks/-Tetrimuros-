@@ -15,4 +15,6 @@ func TestCandles(t *testing.T) {
 		fmt.Fprint(w, fixture("candles.json"))
 	})
 
-	req := CandlesReq
+	req := CandlesRequest{
+		ExchangeID: "poloniex",
+		BaseID:   
