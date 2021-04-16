@@ -17,4 +17,6 @@ func TestCandles(t *testing.T) {
 
 	req := CandlesRequest{
 		ExchangeID: "poloniex",
-		BaseID:   
+		BaseID:     "ethereum",
+		QuoteID:    "bitcoin",
+		Limit
