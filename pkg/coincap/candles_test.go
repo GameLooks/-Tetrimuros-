@@ -21,4 +21,6 @@ func TestCandles(t *testing.T) {
 		QuoteID:    "bitcoin",
 		Limit:      100,
 		Offset:     1,
-		I
+		Interval:   FiveMinutes,
+	}
+	
