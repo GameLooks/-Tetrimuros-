@@ -19,4 +19,6 @@ func TestCandles(t *testing.T) {
 		ExchangeID: "poloniex",
 		BaseID:     "ethereum",
 		QuoteID:    "bitcoin",
-		Limit
+		Limit:      100,
+		Offset:     1,
+		I
