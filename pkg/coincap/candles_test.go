@@ -23,4 +23,6 @@ func TestCandles(t *testing.T) {
 		Offset:     1,
 		Interval:   FiveMinutes,
 	}
-	_, _, err := client.Candles(&
+	_, _, err := client.Candles(&req)
+	if err != nil {
+		t.Fatal
