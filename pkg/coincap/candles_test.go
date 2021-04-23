@@ -23,4 +23,4 @@ func TestCandles(t *testing.T) {
 		Offset:     1,
 		Interval:   FiveMinutes,
 	}
-	
+	_, _, err := client.Candles(&
