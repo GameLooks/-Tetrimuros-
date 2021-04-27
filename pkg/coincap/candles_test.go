@@ -30,4 +30,7 @@ func TestCandles(t *testing.T) {
 }
 
 func TestFailRequiredParams(t *testing.T) {
-	teardown := se
+	teardown := setup()
+	defer teardown()
+
+	// exc
