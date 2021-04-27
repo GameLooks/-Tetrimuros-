@@ -29,4 +29,5 @@ func TestCandles(t *testing.T) {
 	}
 }
 
-func TestFailRequiredP
+func TestFailRequiredParams(t *testing.T) {
+	teardown := se
