@@ -33,4 +33,6 @@ func TestFailRequiredParams(t *testing.T) {
 	teardown := setup()
 	defer teardown()
 
-	// exc
+	// exchangeID
+	req := CandlesRequest{
+		Quote
