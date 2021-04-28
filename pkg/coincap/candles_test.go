@@ -37,4 +37,7 @@ func TestFailRequiredParams(t *testing.T) {
 	req := CandlesRequest{
 		QuoteID:  "bitcoin",
 		Limit:    100,
-		Offset:  
+		Offset:   1,
+		Interval: FiveMinutes,
+	}
+	_, _, er
