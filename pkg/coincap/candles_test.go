@@ -42,4 +42,4 @@ func TestFailRequiredParams(t *testing.T) {
 	}
 	_, _, err := client.Candles(&req)
 	if err == nil {
-		t.Errorf("Expected client 
+		t.Errorf("Expected client to fail because all required paramters 
