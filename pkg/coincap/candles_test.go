@@ -41,4 +41,5 @@ func TestFailRequiredParams(t *testing.T) {
 		Interval: FiveMinutes,
 	}
 	_, _, err := client.Candles(&req)
-	if err
+	if err == nil {
+		t.Errorf("Expected client 
