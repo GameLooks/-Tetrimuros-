@@ -47,4 +47,5 @@ func TestFailRequiredParams(t *testing.T) {
 
 	// quoteID
 	req = CandlesRequest{
-		Exchan
+		ExchangeID: "poloniex",
+		BaseID:  
