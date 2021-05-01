@@ -50,4 +50,6 @@ func TestFailRequiredParams(t *testing.T) {
 		ExchangeID: "poloniex",
 		BaseID:     "ethereum",
 		Limit:      100,
-		Offse
+		Offset:     1,
+	}
+	_, _, err = cl
