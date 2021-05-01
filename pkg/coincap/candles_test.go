@@ -46,4 +46,5 @@ func TestFailRequiredParams(t *testing.T) {
 	}
 
 	// quoteID
-	req
+	req = CandlesRequest{
+		Exchan
