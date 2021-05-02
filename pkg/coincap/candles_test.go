@@ -52,4 +52,6 @@ func TestFailRequiredParams(t *testing.T) {
 		Limit:      100,
 		Offset:     1,
 	}
-	_, _, err = cl
+	_, _, err = client.Candles(&req)
+	if err == nil {
+		t.Errorf("Exp
