@@ -56,3 +56,6 @@ func TestFailRequiredParams(t *testing.T) {
 	if err == nil {
 		t.Errorf("Expected client to fail because all required paramters were not provided")
 	}
+
+	// BaseID
+	req = CandlesReque
