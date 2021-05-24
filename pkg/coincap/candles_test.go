@@ -58,4 +58,6 @@ func TestFailRequiredParams(t *testing.T) {
 	}
 
 	// BaseID
-	req = CandlesReque
+	req = CandlesRequest{
+		ExchangeID: "poloniex",
+		QuoteID: 
