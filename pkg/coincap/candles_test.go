@@ -61,4 +61,6 @@ func TestFailRequiredParams(t *testing.T) {
 	req = CandlesRequest{
 		ExchangeID: "poloniex",
 		QuoteID:    "bitcoin",
-		Interval:   Fi
+		Interval:   FiveMinutes,
+	}
+	_, _, err = clie
