@@ -63,4 +63,6 @@ func TestFailRequiredParams(t *testing.T) {
 		QuoteID:    "bitcoin",
 		Interval:   FiveMinutes,
 	}
-	_, _, err = clie
+	_, _, err = client.Candles(&req)
+	if err == nil {
+		
