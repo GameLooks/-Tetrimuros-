@@ -70,4 +70,5 @@ func TestFailRequiredParams(t *testing.T) {
 
 	// interval
 	req = CandlesRequest{
-		ExchangeID: "p
+		ExchangeID: "poloniex",
+		QuoteID:    "bitc
