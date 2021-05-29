@@ -69,4 +69,5 @@ func TestFailRequiredParams(t *testing.T) {
 	}
 
 	// interval
-	req = Ca
+	req = CandlesRequest{
+		ExchangeID: "p
