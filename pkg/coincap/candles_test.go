@@ -73,3 +73,6 @@ func TestFailRequiredParams(t *testing.T) {
 		ExchangeID: "poloniex",
 		QuoteID:    "bitcoin",
 		BaseID:     "ethereum",
+	}
+	_, _, err = client.Candles(&req)
+	if e
