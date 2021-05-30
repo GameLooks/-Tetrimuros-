@@ -75,4 +75,5 @@ func TestFailRequiredParams(t *testing.T) {
 		BaseID:     "ethereum",
 	}
 	_, _, err = client.Candles(&req)
-	if e
+	if err == nil {
+		t.Errorf(
