@@ -68,3 +68,31 @@ func (c *Client) fetchAndParse(req *http.Request) (*coincapResp, error) {
 		defer reader.Close()
 	default:
 		// otherwise set the reader to the response body
+		reader = resp.Body
+	}
+
+	// now read the body out of the reader
+	body, err := ioutil.ReadAll(reader)
+	if err != nil {
+		return nil, err
+	}
+	if resp.StatusCode != 200 {
+		return nil, fmt.Errorf("Error received status: %d, with body: %s", resp.StatusCode, string(body))
+	}
+
+	// parse the result
+	ccResp := new(coincapResp)
+	if err := json.Unmarshal(body, ccResp); err != nil {
+		return nil, err
+	}
+
+	// ensure we got both the data object and the timestamp
+	if ccResp.Data == nil {
+		return ccResp, fmt.Errorf(`Response is missing "data" payload`)
+	}
+	if ccResp.Timestamp == nil {
+		return ccResp, fmt.Errorf(`Response is missing required "timestamp"`)
+	}
+
+	return ccResp, nil
+}
