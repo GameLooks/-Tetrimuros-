@@ -5,4 +5,5 @@ import (
 	"net/http"
 )
 
-// Exchange contains information about a cryptocurrency exchange. This includes the 
+// Exchange contains information about a cryptocurrency exchange. This includes the exchanges
+// relative r
