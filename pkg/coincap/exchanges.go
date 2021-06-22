@@ -9,4 +9,5 @@ import (
 // relative rank, volume, and whether trading sockets are available
 type Exchange struct {
 	ID                 string    `json:"id"`                 // unique identifier for exchange
-	Name               string    `json:"name"`               // pr
+	Name               string    `json:"name"`               // proper name of exchange
+	Rank            
