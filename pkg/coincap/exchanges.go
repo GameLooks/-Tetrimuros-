@@ -10,4 +10,5 @@ import (
 type Exchange struct {
 	ID                 string    `json:"id"`                 // unique identifier for exchange
 	Name               string    `json:"name"`               // proper name of exchange
-	Rank               string    `json:"rank"`         
+	Rank               string    `json:"rank"`               // rank in terms of total volume compared to other exchanges
+	P
