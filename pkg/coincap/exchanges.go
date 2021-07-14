@@ -13,4 +13,5 @@ type Exchange struct {
 	Rank               string    `json:"rank"`               // rank in terms of total volume compared to other exchanges
 	PercentTotalVolume string    `json:"percentTotalVolume"` // perecent of total daily volume in relation to all exchanges
 	VolumeUSD          string    `json:"volumeUSD"`          // daily volume represented in USD
-	TradingPairs       string    `json:"tradingPairs"`       // number of trading pairs offered by the exchan
+	TradingPairs       string    `json:"tradingPairs"`       // number of trading pairs offered by the exchange
+	Socket             bool      `js
