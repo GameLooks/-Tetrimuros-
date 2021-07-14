@@ -14,4 +14,4 @@ type Exchange struct {
 	PercentTotalVolume string    `json:"percentTotalVolume"` // perecent of total daily volume in relation to all exchanges
 	VolumeUSD          string    `json:"volumeUSD"`          // daily volume represented in USD
 	TradingPairs       string    `json:"tradingPairs"`       // number of trading pairs offered by the exchange
-	Socket             bool      `json:"socket"`             // Whether
+	Socket             bool      `json:"socket"`             // Whether or not a trade socket is av
