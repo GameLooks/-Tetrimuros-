@@ -18,4 +18,4 @@ type Exchange struct {
 	Updated            Timestamp `json:"updated"`            // Time since information was last updated
 }
 
-// Exchanges ret
+// Exchanges returns information about all the vari
