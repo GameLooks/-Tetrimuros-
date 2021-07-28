@@ -18,4 +18,6 @@ type Exchange struct {
 	Updated            Timestamp `json:"updated"`            // Time since information was last updated
 }
 
-// Exchanges returns information about all the various exchanges currently t
+// Exchanges returns information about all the various exchanges currently tracked by CoinCap.
+// GET /exchanges
+func (
