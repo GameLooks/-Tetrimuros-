@@ -22,4 +22,6 @@ type Exchange struct {
 // GET /exchanges
 func (c *Client) Exchanges() ([]*Exchange, *Timestamp, error) {
 
-	req, err := http.NewRequest("GET", c.baseURL+"/ex
+	req, err := http.NewRequest("GET", c.baseURL+"/exchanges", nil)
+	if err != nil {
+		r
