@@ -20,4 +20,6 @@ type Exchange struct {
 
 // Exchanges returns information about all the various exchanges currently tracked by CoinCap.
 // GET /exchanges
-func (c *Client) Exchanges() ([]*
+func (c *Client) Exchanges() ([]*Exchange, *Timestamp, error) {
+
+	req, err 
