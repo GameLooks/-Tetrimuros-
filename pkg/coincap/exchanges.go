@@ -24,4 +24,7 @@ func (c *Client) Exchanges() ([]*Exchange, *Timestamp, error) {
 
 	req, err := http.NewRequest("GET", c.baseURL+"/exchanges", nil)
 	if err != nil {
-		r
+		return nil, nil, err
+	}
+
+	// make the req
