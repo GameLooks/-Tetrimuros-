@@ -27,4 +27,5 @@ func (c *Client) Exchanges() ([]*Exchange, *Timestamp, error) {
 		return nil, nil, err
 	}
 
-	// make the req
+	// make the request
+	ccResp, err := c.fetchAnd
