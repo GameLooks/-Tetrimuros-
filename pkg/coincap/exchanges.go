@@ -28,4 +28,6 @@ func (c *Client) Exchanges() ([]*Exchange, *Timestamp, error) {
 	}
 
 	// make the request
-	ccResp, err := c.fetchAnd
+	ccResp, err := c.fetchAndParse(req)
+	if err != nil {
+		r
