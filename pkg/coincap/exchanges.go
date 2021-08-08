@@ -33,4 +33,5 @@ func (c *Client) Exchanges() ([]*Exchange, *Timestamp, error) {
 		return nil, nil, err
 	}
 
-	// Unmarshal the deferre
+	// Unmarshal the deferred json from the data field
+	va
