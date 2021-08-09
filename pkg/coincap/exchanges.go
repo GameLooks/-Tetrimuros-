@@ -36,3 +36,5 @@ func (c *Client) Exchanges() ([]*Exchange, *Timestamp, error) {
 	// Unmarshal the deferred json from the data field
 	var exchanges []*Exchange
 	json.Unmarshal(*ccResp.Data, &exchanges)
+
+	return exchanges, ccResp.
