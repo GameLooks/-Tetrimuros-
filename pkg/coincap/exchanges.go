@@ -40,4 +40,4 @@ func (c *Client) Exchanges() ([]*Exchange, *Timestamp, error) {
 	return exchanges, ccResp.Timestamp, nil
 }
 
-// ExchangeByID ret
+// ExchangeByID returns exchange data for an exchange with the 
