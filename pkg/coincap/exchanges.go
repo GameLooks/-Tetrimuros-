@@ -37,4 +37,7 @@ func (c *Client) Exchanges() ([]*Exchange, *Timestamp, error) {
 	var exchanges []*Exchange
 	json.Unmarshal(*ccResp.Data, &exchanges)
 
-	return exchanges, ccResp.
+	return exchanges, ccResp.Timestamp, nil
+}
+
+// ExchangeByID ret
