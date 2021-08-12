@@ -42,4 +42,4 @@ func (c *Client) Exchanges() ([]*Exchange, *Timestamp, error) {
 
 // ExchangeByID returns exchange data for an exchange with the given unique ID.
 // GET /exchanges/{{id}}
-func (c *Client
+func (c *Client) ExchangeByID(id string) (*Exch
