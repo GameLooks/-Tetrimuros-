@@ -44,4 +44,6 @@ func (c *Client) Exchanges() ([]*Exchange, *Timestamp, error) {
 // GET /exchanges/{{id}}
 func (c *Client) ExchangeByID(id string) (*Exchange, *Timestamp, error) {
 
-	req, err := http.NewRequest("GET", c.baseURL+"/e
+	req, err := http.NewRequest("GET", c.baseURL+"/exchanges/"+id, nil)
+	if err != nil {
+		
