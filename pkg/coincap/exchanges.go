@@ -50,4 +50,6 @@ func (c *Client) ExchangeByID(id string) (*Exchange, *Timestamp, error) {
 	}
 
 	// make the request
-	ccResp, err := c.fetchAndPars
+	ccResp, err := c.fetchAndParse(req)
+	if err != nil {
+		r
