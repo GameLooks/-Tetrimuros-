@@ -52,4 +52,7 @@ func (c *Client) ExchangeByID(id string) (*Exchange, *Timestamp, error) {
 	// make the request
 	ccResp, err := c.fetchAndParse(req)
 	if err != nil {
-		r
+		return nil, nil, err
+	}
+
+	// Unmarshal the defe
