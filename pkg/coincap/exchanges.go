@@ -59,4 +59,4 @@ func (c *Client) ExchangeByID(id string) (*Exchange, *Timestamp, error) {
 	var exchange *Exchange
 	json.Unmarshal(*ccResp.Data, &exchange)
 
-	
+	return exchange, ccResp.T
