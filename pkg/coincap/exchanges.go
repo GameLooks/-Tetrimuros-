@@ -57,4 +57,6 @@ func (c *Client) ExchangeByID(id string) (*Exchange, *Timestamp, error) {
 
 	// Unmarshal the deferred json from the data field
 	var exchange *Exchange
-	json.Un
+	json.Unmarshal(*ccResp.Data, &exchange)
+
+	
