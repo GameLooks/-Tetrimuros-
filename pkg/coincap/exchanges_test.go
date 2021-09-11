@@ -1,3 +1,7 @@
 package coincap
 
-import 
+import (
+	"fmt"
+	"net/http"
+	"testing"
+	
