@@ -7,4 +7,7 @@ import (
 	"time"
 )
 
-func TestExchanges(t *testing.T
+func TestExchanges(t *testing.T) {
+
+	teardown := setup()
+	d
