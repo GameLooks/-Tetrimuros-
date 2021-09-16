@@ -10,4 +10,6 @@ import (
 func TestExchanges(t *testing.T) {
 
 	teardown := setup()
-	d
+	defer teardown()
+
+	r.HandleFunc("/e
