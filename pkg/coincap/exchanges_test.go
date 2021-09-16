@@ -12,4 +12,4 @@ func TestExchanges(t *testing.T) {
 	teardown := setup()
 	defer teardown()
 
-	r.HandleFunc("/e
+	r.HandleFunc("/exchanges", func(w http.Respo
