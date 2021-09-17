@@ -13,3 +13,4 @@ func TestExchanges(t *testing.T) {
 	defer teardown()
 
 	r.HandleFunc("/exchanges", func(w http.ResponseWriter, r *http.Request) {
+		w.Header().Set("Content-Type", "app
