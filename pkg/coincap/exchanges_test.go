@@ -15,4 +15,7 @@ func TestExchanges(t *testing.T) {
 	r.HandleFunc("/exchanges", func(w http.ResponseWriter, r *http.Request) {
 		w.Header().Set("Content-Type", "application/json")
 		w.WriteHeader(http.StatusOK)
-		fmt.Fprint(w, fixture("exch
+		fmt.Fprint(w, fixture("exchange.json"))
+	})
+
+	exchanges, _, err := c
