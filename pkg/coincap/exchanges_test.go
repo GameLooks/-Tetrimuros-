@@ -18,4 +18,6 @@ func TestExchanges(t *testing.T) {
 		fmt.Fprint(w, fixture("exchange.json"))
 	})
 
-	exchanges, _, err := c
+	exchanges, _, err := client.Exchanges()
+	if err != nil {
+		
