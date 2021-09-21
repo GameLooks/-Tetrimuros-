@@ -20,4 +20,6 @@ func TestExchanges(t *testing.T) {
 
 	exchanges, _, err := client.Exchanges()
 	if err != nil {
-		
+		t.Fatal(err)
+	}
+	if len(e
