@@ -22,4 +22,5 @@ func TestExchanges(t *testing.T) {
 	if err != nil {
 		t.Fatal(err)
 	}
-	if len(e
+	if len(exchanges) < 0 {
+		t.Fatalf("No Exchanges 
