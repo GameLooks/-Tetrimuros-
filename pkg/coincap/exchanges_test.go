@@ -23,4 +23,6 @@ func TestExchanges(t *testing.T) {
 		t.Fatal(err)
 	}
 	if len(exchanges) < 0 {
-		t.Fatalf("No Exchanges 
+		t.Fatalf("No Exchanges returned")
+	}
+	got := exchanges[0]
