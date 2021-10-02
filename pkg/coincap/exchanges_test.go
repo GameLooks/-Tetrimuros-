@@ -27,4 +27,7 @@ func TestExchanges(t *testing.T) {
 	}
 	got := exchanges[0]
 	ts := Timestamp{
-		Time: time.Unix(
+		Time: time.Unix(0, 1536336916333*1e6),
+	}
+
+	e
