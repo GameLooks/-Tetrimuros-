@@ -26,3 +26,5 @@ func TestExchanges(t *testing.T) {
 		t.Fatalf("No Exchanges returned")
 	}
 	got := exchanges[0]
+	ts := Timestamp{
+		Time: time.Unix(
