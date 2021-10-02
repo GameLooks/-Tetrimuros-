@@ -30,4 +30,5 @@ func TestExchanges(t *testing.T) {
 		Time: time.Unix(0, 1536336916333*1e6),
 	}
 
-	e
+	expected := Exchange{
+		ID:               
