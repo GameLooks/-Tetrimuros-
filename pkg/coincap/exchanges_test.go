@@ -33,4 +33,5 @@ func TestExchanges(t *testing.T) {
 	expected := Exchange{
 		ID:                 "binance",
 		Name:               "Binance",
-		Rank:               
+		Rank:               "1",
+		PercentTotalVolume: 
