@@ -34,4 +34,5 @@ func TestExchanges(t *testing.T) {
 		ID:                 "binance",
 		Name:               "Binance",
 		Rank:               "1",
-		PercentTotalVolume: "16.9030279814667497020000000000000
+		PercentTotalVolume: "16.903027981466749702000000000000000000",
+		VolumeUSD:       
