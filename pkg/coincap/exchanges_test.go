@@ -36,4 +36,5 @@ func TestExchanges(t *testing.T) {
 		Rank:               "1",
 		PercentTotalVolume: "16.903027981466749702000000000000000000",
 		VolumeUSD:          "1034850514.6425770861221546",
-		TradingPairs:       "375"
+		TradingPairs:       "375",
+		Socket:             tr
