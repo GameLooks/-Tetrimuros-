@@ -39,4 +39,6 @@ func TestExchanges(t *testing.T) {
 		TradingPairs:       "375",
 		Socket:             true,
 		Updated:            ts,
-	
+	}
+	if *got != expected {
+		t
