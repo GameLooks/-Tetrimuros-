@@ -41,4 +41,8 @@ func TestExchanges(t *testing.T) {
 		Updated:            ts,
 	}
 	if *got != expected {
-		t.Errorf("Expected %v, Got %v", e
+		t.Errorf("Expected %v, Got %v", expected, *got)
+	}
+}
+
+func TestExchange
