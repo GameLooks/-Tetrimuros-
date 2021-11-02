@@ -49,4 +49,5 @@ func TestExchangeBadURL(t *testing.T) {
 	teardown := setup()
 	defer teardown()
 
-	client.SetB
+	client.SetBaseURL("bad.url")
+	_, _, e
