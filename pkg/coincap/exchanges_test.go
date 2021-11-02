@@ -46,4 +46,7 @@ func TestExchanges(t *testing.T) {
 }
 
 func TestExchangeBadURL(t *testing.T) {
-	teardown :
+	teardown := setup()
+	defer teardown()
+
+	client.SetB
