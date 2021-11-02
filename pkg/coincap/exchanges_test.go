@@ -45,4 +45,5 @@ func TestExchanges(t *testing.T) {
 	}
 }
 
-func TestExchange
+func TestExchangeBadURL(t *testing.T) {
+	teardown :
