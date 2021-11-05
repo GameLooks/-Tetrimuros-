@@ -52,4 +52,7 @@ func TestExchangeBadURL(t *testing.T) {
 	client.SetBaseURL("bad.url")
 	_, _, err := client.Exchanges()
 	if err == nil {
-		t.Errorf("Expected ca
+		t.Errorf("Expected call to fail because of invalid URL")
+	}
+
+	_, _,
