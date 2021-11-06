@@ -55,4 +55,4 @@ func TestExchangeBadURL(t *testing.T) {
 		t.Errorf("Expected call to fail because of invalid URL")
 	}
 
-	_, _,
+	_, _, err = client.ExchangeByID("bin
