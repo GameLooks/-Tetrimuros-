@@ -57,4 +57,4 @@ func TestExchangeBadURL(t *testing.T) {
 
 	_, _, err = client.ExchangeByID("binance")
 	if err == nil {
-		t.Erro
+		t.Errorf("Expected call to fail because of in
