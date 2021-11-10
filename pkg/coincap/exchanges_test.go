@@ -62,4 +62,7 @@ func TestExchangeBadURL(t *testing.T) {
 
 }
 
-func TestExchangeByID(t *testing.
+func TestExchangeByID(t *testing.T) {
+
+	teardown := setup()
+	defer te
