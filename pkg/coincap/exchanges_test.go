@@ -67,4 +67,5 @@ func TestExchangeByID(t *testing.T) {
 	teardown := setup()
 	defer teardown()
 
-	r.HandleFunc("/exchanges/{id}", func(w http.ResponseWriter
+	r.HandleFunc("/exchanges/{id}", func(w http.ResponseWriter, r *http.Request) {
+		w.Hea
