@@ -68,4 +68,5 @@ func TestExchangeByID(t *testing.T) {
 	defer teardown()
 
 	r.HandleFunc("/exchanges/{id}", func(w http.ResponseWriter, r *http.Request) {
-		w.Header().Set("Content-Type", "
+		w.Header().Set("Content-Type", "application/json")
+		w.WriteHeader(
