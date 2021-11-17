@@ -72,3 +72,5 @@ func TestExchangeByID(t *testing.T) {
 		w.WriteHeader(http.StatusOK)
 		fmt.Fprint(w, fixture("exchangeByID.json"))
 	})
+
+	exchange, _, err := client.E
