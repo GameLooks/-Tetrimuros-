@@ -73,4 +73,5 @@ func TestExchangeByID(t *testing.T) {
 		fmt.Fprint(w, fixture("exchangeByID.json"))
 	})
 
-	exchange, _, err := client.E
+	exchange, _, err := client.ExchangeByID("gdax")
+	if err != nil {
