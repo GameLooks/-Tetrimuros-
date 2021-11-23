@@ -79,4 +79,4 @@ func TestExchangeByID(t *testing.T) {
 	}
 
 	if exchange.ID != "gdax" {
-		t.Errorf("Expected ex
+		t.Errorf("Expected exchange ID to be %s, but was %
