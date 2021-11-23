@@ -75,3 +75,7 @@ func TestExchangeByID(t *testing.T) {
 
 	exchange, _, err := client.ExchangeByID("gdax")
 	if err != nil {
+		t.Fatal(err)
+	}
+
+	if exchange.ID
