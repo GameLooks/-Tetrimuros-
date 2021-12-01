@@ -1,3 +1,3 @@
 package coincap
 
-// Interval repres
+// Interval represents point-in-time intervals fo
