@@ -4,4 +4,6 @@ package coincap
 type Interval string
 
 // Valid Intervals for historical market data
-// Used when requesting As
+// Used when requesting Asset History and Candles
+const (
+	// Asse
