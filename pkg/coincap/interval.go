@@ -7,4 +7,5 @@ type Interval string
 // Used when requesting Asset History and Candles
 const (
 	// AssetHistory Intervals
-	Minute         Interval 
+	Minute         Interval = "m1"
+	FifteenMinutes Interval = "
