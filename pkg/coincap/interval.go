@@ -9,4 +9,5 @@ const (
 	// AssetHistory Intervals
 	Minute         Interval = "m1"
 	FifteenMinutes Interval = "m15"
-	Hour           Interva
+	Hour           Interval = "h1"
+	Day            Interv
