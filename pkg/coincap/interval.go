@@ -8,4 +8,5 @@ type Interval string
 const (
 	// AssetHistory Intervals
 	Minute         Interval = "m1"
-	FifteenMinutes Interval = "
+	FifteenMinutes Interval = "m15"
+	Hour           Interva
