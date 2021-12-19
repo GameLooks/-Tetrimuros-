@@ -10,4 +10,6 @@ const (
 	Minute         Interval = "m1"
 	FifteenMinutes Interval = "m15"
 	Hour           Interval = "h1"
-	Day            Interv
+	Day            Interval = "d1"
+
+	// Ca
