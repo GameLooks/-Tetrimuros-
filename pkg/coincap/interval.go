@@ -14,4 +14,5 @@ const (
 
 	// Candle Intervals (includes all the above intervals)
 	FiveMinutes   Interval = "m5"
-	Th
+	ThirtyMinutes Interval = "m30"
+	TwoHours 
