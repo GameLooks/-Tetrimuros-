@@ -12,4 +12,4 @@ const (
 	Hour           Interval = "h1"
 	Day            Interval = "d1"
 
-	// Ca
+	// Candle Intervals (includes all the above inter
