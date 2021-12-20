@@ -12,4 +12,6 @@ const (
 	Hour           Interval = "h1"
 	Day            Interval = "d1"
 
-	// Candle Intervals (includes all the above inter
+	// Candle Intervals (includes all the above intervals)
+	FiveMinutes   Interval = "m5"
+	Th
