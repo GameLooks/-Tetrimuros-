@@ -16,4 +16,5 @@ const (
 	FiveMinutes   Interval = "m5"
 	ThirtyMinutes Interval = "m30"
 	TwoHours      Interval = "h2"
-	FourHours  
+	FourHours     Interval = "h4"
+	EightHours    Int
