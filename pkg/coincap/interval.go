@@ -18,4 +18,6 @@ const (
 	TwoHours      Interval = "h2"
 	FourHours     Interval = "h4"
 	EightHours    Interval = "h8"
-	TwelveHours   Interval 
+	TwelveHours   Interval = "h12"
+	Week          Interval = "w1"
+)
