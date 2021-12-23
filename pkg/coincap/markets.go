@@ -6,4 +6,4 @@ import (
 	"strconv"
 )
 
-// MarketsRe
+// MarketsRequest contains the paramters yo
