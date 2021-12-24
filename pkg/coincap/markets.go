@@ -7,4 +7,5 @@ import (
 )
 
 // MarketsRequest contains the paramters you can use to tailor a request for market data from the /markets endpoint
-ty
+type MarketsRequest struct {
+	ExchangeID 
