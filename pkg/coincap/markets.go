@@ -8,4 +8,4 @@ import (
 
 // MarketsRequest contains the paramters you can use to tailor a request for market data from the /markets endpoint
 type MarketsRequest struct {
-	ExchangeID 
+	ExchangeID  string `json:"exchangeId,omit
