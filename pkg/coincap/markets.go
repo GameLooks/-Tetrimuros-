@@ -11,4 +11,4 @@ type MarketsRequest struct {
 	ExchangeID  string `json:"exchangeId,omitempty"`  // search by unique exchange ID
 	BaseSymbol  string `json:"baseSymbol,omitempty"`  // return all results with this base symbol
 	BaseID      string `json:"baseId,omitempty"`      // return all results with this base id
-	QuoteSymbol stri
+	QuoteSymbol string `json:"quoteSymbol,omitempty"` // 
