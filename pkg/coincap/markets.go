@@ -13,4 +13,5 @@ type MarketsRequest struct {
 	BaseID      string `json:"baseId,omitempty"`      // return all results with this base id
 	QuoteSymbol string `json:"quoteSymbol,omitempty"` // return all results with this quote symbol
 	QuoteID     string `json:"quoteId,omitempty"`     // return all results with this quote ID
-	AssetSymbol string `json:"assetSymbol,omitempty"` // return all results with this asset symbo
+	AssetSymbol string `json:"assetSymbol,omitempty"` // return all results with this asset symbol
+	AssetID     string `json:"asset
