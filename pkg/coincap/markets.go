@@ -15,4 +15,4 @@ type MarketsRequest struct {
 	QuoteID     string `json:"quoteId,omitempty"`     // return all results with this quote ID
 	AssetSymbol string `json:"assetSymbol,omitempty"` // return all results with this asset symbol
 	AssetID     string `json:"assetID,omitempty"`     // return all results with this asset ID
-	Limit       int    `json:"limit,omitempty"`      
+	Limit       int    `json:"limit,omitempty"`       // limit number of returned results (
