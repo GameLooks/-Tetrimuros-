@@ -19,4 +19,5 @@ type MarketsRequest struct {
 	Offset      int    `json:"offset,omitempty"`      // skip the first N entries of the result set
 }
 
-// Market contains the market
+// Market contains the market data response from the api
+type 
