@@ -16,4 +16,4 @@ type MarketsRequest struct {
 	AssetSymbol string `json:"assetSymbol,omitempty"` // return all results with this asset symbol
 	AssetID     string `json:"assetID,omitempty"`     // return all results with this asset ID
 	Limit       int    `json:"limit,omitempty"`       // limit number of returned results (Max: 2000)
-	Offset      int    `json:"of
+	Offset      int    `json:"offset,omitempty"`      // skip 
