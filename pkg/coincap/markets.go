@@ -21,4 +21,5 @@ type MarketsRequest struct {
 
 // Market contains the market data response from the api
 type Market struct {
-	ExchangeID            string    `json:"exchangeId"`            //
+	ExchangeID            string    `json:"exchangeId"`            // unique identifier for exchange
+	
