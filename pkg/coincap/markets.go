@@ -22,4 +22,4 @@ type MarketsRequest struct {
 // Market contains the market data response from the api
 type Market struct {
 	ExchangeID            string    `json:"exchangeId"`            // unique identifier for exchange
-	Rank                  string    `json:"ra
+	Rank                  string    `json:"rank"`                  // rank in terms
