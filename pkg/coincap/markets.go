@@ -23,4 +23,4 @@ type MarketsRequest struct {
 type Market struct {
 	ExchangeID            string    `json:"exchangeId"`            // unique identifier for exchange
 	Rank                  string    `json:"rank"`                  // rank in terms of volume transacted in this market
-	BaseSymbol            string    `json:"baseSymbol"` 
+	BaseSymbol            string    `json:"baseSymbol"`            // most common symbol used
