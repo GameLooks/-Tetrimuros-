@@ -24,4 +24,5 @@ type Market struct {
 	ExchangeID            string    `json:"exchangeId"`            // unique identifier for exchange
 	Rank                  string    `json:"rank"`                  // rank in terms of volume transacted in this market
 	BaseSymbol            string    `json:"baseSymbol"`            // most common symbol used to identify this asset
-	BaseID                string    `json:"baseId"`                // unique identifier for this asset. base
+	BaseID                string    `json:"baseId"`                // unique identifier for this asset. base is the asset purchased
+	QuoteSy
