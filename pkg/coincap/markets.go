@@ -26,4 +26,4 @@ type Market struct {
 	BaseSymbol            string    `json:"baseSymbol"`            // most common symbol used to identify this asset
 	BaseID                string    `json:"baseId"`                // unique identifier for this asset. base is the asset purchased
 	QuoteSymbol           string    `json:"quoteSymbol"`           // most common symbol used to identify this asset
-	QuoteID               string    `json:"quoteId"`               // unique identifier for thisass
+	QuoteID               string    `json:"quoteId"`               // unique identifier for thisasset. quote is the asset used to purchase b
