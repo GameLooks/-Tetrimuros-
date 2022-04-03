@@ -28,4 +28,4 @@ type Market struct {
 	QuoteSymbol           string    `json:"quoteSymbol"`           // most common symbol used to identify this asset
 	QuoteID               string    `json:"quoteId"`               // unique identifier for thisasset. quote is the asset used to purchase base
 	PriceQuote            string    `json:"priceQuote"`            // amount of quote asset traded for 1 unit of base asset
-	PriceUsd              string    `json:"priceUsd"`              
+	PriceUsd              string    `json:"priceUsd"`              // quote price translated 
