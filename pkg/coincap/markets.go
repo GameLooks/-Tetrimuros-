@@ -29,4 +29,4 @@ type Market struct {
 	QuoteID               string    `json:"quoteId"`               // unique identifier for thisasset. quote is the asset used to purchase base
 	PriceQuote            string    `json:"priceQuote"`            // amount of quote asset traded for 1 unit of base asset
 	PriceUsd              string    `json:"priceUsd"`              // quote price translated to USD
-	VolumeUsd24Hr         st
+	VolumeUsd24Hr         string    `json:"volumeUsd24Hr"`     
