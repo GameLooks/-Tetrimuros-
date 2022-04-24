@@ -30,4 +30,5 @@ type Market struct {
 	PriceQuote            string    `json:"priceQuote"`            // amount of quote asset traded for 1 unit of base asset
 	PriceUsd              string    `json:"priceUsd"`              // quote price translated to USD
 	VolumeUsd24Hr         string    `json:"volumeUsd24Hr"`         // volume transacted in this market in the last 24 hours
-	PercentExchangeVolume string    `json:"percentExchangeVolume"` // amount of daily volume this market transacts compar
+	PercentExchangeVolume string    `json:"percentExchangeVolume"` // amount of daily volume this market transacts compared to others on this exchange
+	TradesCount24Hr   
