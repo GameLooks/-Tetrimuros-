@@ -32,4 +32,4 @@ type Market struct {
 	VolumeUsd24Hr         string    `json:"volumeUsd24Hr"`         // volume transacted in this market in the last 24 hours
 	PercentExchangeVolume string    `json:"percentExchangeVolume"` // amount of daily volume this market transacts compared to others on this exchange
 	TradesCount24Hr       string    `json:"tradesCount24Hr"`       // number of trades on this market in the last 24 hours
-	Updated               Timestamp `json:"updated"`          
+	Updated               Timestamp `json:"updated"`               // last time information wa
