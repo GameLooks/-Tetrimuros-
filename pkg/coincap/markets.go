@@ -35,4 +35,4 @@ type Market struct {
 	Updated               Timestamp `json:"updated"`               // last time information was received from this market
 }
 
-// 
+// Markets requests market data for all mar
