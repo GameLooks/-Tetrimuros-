@@ -35,4 +35,5 @@ type Market struct {
 	Updated               Timestamp `json:"updated"`               // last time information was received from this market
 }
 
-// Markets requests market data for all markets matching the criteria set in the 
+// Markets requests market data for all markets matching the criteria set in the MarketRequest params.
+// For histo
