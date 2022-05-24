@@ -36,4 +36,4 @@ type Market struct {
 }
 
 // Markets requests market data for all markets matching the criteria set in the MarketRequest params.
-// For histo
+// For historical data on markets use the Candles() end
