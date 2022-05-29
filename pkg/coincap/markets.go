@@ -41,4 +41,4 @@ type Market struct {
 func (c *Client) Markets(reqParams *MarketsRequest) ([]*Market, *Timestamp, error) {
 
 	// Prepare the query
-	req, err
+	req, err := http.NewRequest("GET", c.b
