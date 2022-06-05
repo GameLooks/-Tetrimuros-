@@ -43,4 +43,7 @@ func (c *Client) Markets(reqParams *MarketsRequest) ([]*Market, *Timestamp, erro
 	// Prepare the query
 	req, err := http.NewRequest("GET", c.baseURL+"/markets", nil)
 	if err != nil {
-		re
+		return nil, nil, err
+	}
+
+	// encode optional
