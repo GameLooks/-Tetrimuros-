@@ -46,4 +46,5 @@ func (c *Client) Markets(reqParams *MarketsRequest) ([]*Market, *Timestamp, erro
 		return nil, nil, err
 	}
 
-	// encode optional
+	// encode optional parameters
+	params := req.UR
