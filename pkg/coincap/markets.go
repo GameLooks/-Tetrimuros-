@@ -47,4 +47,5 @@ func (c *Client) Markets(reqParams *MarketsRequest) ([]*Market, *Timestamp, erro
 	}
 
 	// encode optional parameters
-	params := req.UR
+	params := req.URL.Query()
+	if reqParams.ExchangeI
