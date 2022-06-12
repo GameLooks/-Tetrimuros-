@@ -48,4 +48,5 @@ func (c *Client) Markets(reqParams *MarketsRequest) ([]*Market, *Timestamp, erro
 
 	// encode optional parameters
 	params := req.URL.Query()
-	if reqParams.ExchangeI
+	if reqParams.ExchangeID != "" {
+		params.Add("exchange", reqPa
