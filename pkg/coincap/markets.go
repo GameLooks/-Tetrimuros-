@@ -51,4 +51,5 @@ func (c *Client) Markets(reqParams *MarketsRequest) ([]*Market, *Timestamp, erro
 	if reqParams.ExchangeID != "" {
 		params.Add("exchange", reqParams.ExchangeID)
 	}
-	if reqParams.BaseSymbol != "" 
+	if reqParams.BaseSymbol != "" {
+		params.Add("baseSymbol", reqParam
