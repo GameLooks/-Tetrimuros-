@@ -66,4 +66,5 @@ func (c *Client) Markets(reqParams *MarketsRequest) ([]*Market, *Timestamp, erro
 	if reqParams.AssetSymbol != "" {
 		params.Add("AssetSymbol", reqParams.AssetSymbol)
 	}
-	if reqParam
+	if reqParams.AssetID != "" {
+		params.Ad
