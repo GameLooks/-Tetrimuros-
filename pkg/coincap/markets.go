@@ -69,4 +69,5 @@ func (c *Client) Markets(reqParams *MarketsRequest) ([]*Market, *Timestamp, erro
 	if reqParams.AssetID != "" {
 		params.Add("assetId", reqParams.AssetID)
 	}
-	
+	if reqParams.Limit > 0 {
+		params.
