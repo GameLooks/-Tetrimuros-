@@ -72,4 +72,5 @@ func (c *Client) Markets(reqParams *MarketsRequest) ([]*Market, *Timestamp, erro
 	if reqParams.Limit > 0 {
 		params.Add("limit", strconv.Itoa(reqParams.Limit))
 	}
-	if reqParams.Offset
+	if reqParams.Offset > 0 {
+		params.Add("offset", strconv.I
