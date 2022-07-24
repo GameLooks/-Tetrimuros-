@@ -75,4 +75,6 @@ func (c *Client) Markets(reqParams *MarketsRequest) ([]*Market, *Timestamp, erro
 	if reqParams.Offset > 0 {
 		params.Add("offset", strconv.Itoa(reqParams.Offset))
 	}
-	req.URL.RawQu
+	req.URL.RawQuery = params.Encode()
+
+	// make the request
