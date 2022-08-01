@@ -78,3 +78,5 @@ func (c *Client) Markets(reqParams *MarketsRequest) ([]*Market, *Timestamp, erro
 	req.URL.RawQuery = params.Encode()
 
 	// make the request
+	ccResp, err := c.fetchAndParse(req)
+	i
