@@ -79,4 +79,5 @@ func (c *Client) Markets(reqParams *MarketsRequest) ([]*Market, *Timestamp, erro
 
 	// make the request
 	ccResp, err := c.fetchAndParse(req)
-	i
+	if err != nil {
+		return nil, nil, err
