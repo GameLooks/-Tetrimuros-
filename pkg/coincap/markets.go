@@ -81,3 +81,6 @@ func (c *Client) Markets(reqParams *MarketsRequest) ([]*Market, *Timestamp, erro
 	ccResp, err := c.fetchAndParse(req)
 	if err != nil {
 		return nil, nil, err
+	}
+
+	// Unmarshal the deferred
