@@ -84,4 +84,5 @@ func (c *Client) Markets(reqParams *MarketsRequest) ([]*Market, *Timestamp, erro
 	}
 
 	// Unmarshal the deferred json from the data field
-	var mark
+	var markets []*Market
+	json.Unmarshal(*ccRe
