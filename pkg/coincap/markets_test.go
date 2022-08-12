@@ -46,3 +46,14 @@ func TestMarketsLive(t *testing.T) {
 	params := &MarketsRequest{
 		BaseID:      "ethereum",
 		QuoteID:     "dogecoin",
+		AssetSymbol: "dogecoin",
+	}
+	markets, _, err := client.Markets(params)
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	if len(markets) == 0 {
+		t.Errorf("No markets were returned")
+	}
+}
