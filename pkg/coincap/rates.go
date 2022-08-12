@@ -25,3 +25,36 @@ func (c *Client) Rates() ([]*Rate, *Timestamp, error) {
 	}
 
 	// make the request
+	ccResp, err := c.fetchAndParse(req)
+	if err != nil {
+		return nil, nil, err
+	}
+
+	// Unmarshal the deferred json from the data field
+	var rates []*Rate
+	if err := json.Unmarshal(*ccResp.Data, &rates); err != nil {
+		return nil, nil, err
+	}
+
+	return rates, ccResp.Timestamp, nil
+}
+
+// RateByID returns the USD rate for the given asset identifier
+func (c *Client) RateByID(id string) (*Rate, *Timestamp, error) {
+	req, err := http.NewRequest("GET", c.baseURL+"/rates/"+id, nil)
+	if err != nil {
+		return nil, nil, err
+	}
+
+	// make the request
+	ccResp, err := c.fetchAndParse(req)
+	if err != nil {
+		return nil, nil, err
+	}
+
+	// Unmarshal the deferred json from the data field
+	var rate Rate
+	json.Unmarshal(*ccResp.Data, &rate)
+
+	return &rate, ccResp.Timestamp, nil
+}
