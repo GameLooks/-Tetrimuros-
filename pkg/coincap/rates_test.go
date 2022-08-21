@@ -119,3 +119,25 @@ func TestRatesMalformed(t *testing.T) {
 		w.WriteHeader(http.StatusOK)
 		fmt.Fprint(w, fixture("rates_malformed.json"))
 	})
+
+	rates, _, err := client.Rates()
+	if err == nil {
+		t.Errorf("Expected malformed json %+v", rates)
+	}
+}
+
+func TestRatesNoTimestamp(t *testing.T) {
+	teardown := setup()
+	defer teardown()
+
+	r.HandleFunc("/rates", func(w http.ResponseWriter, r *http.Request) {
+		w.Header().Set("Content-Type", "application/json")
+		w.WriteHeader(http.StatusOK)
+		fmt.Fprint(w, fixture("rates_no_timestamp.json"))
+	})
+
+	_, timestamp, err := client.Rates()
+	if err == nil {
+		t.Errorf("Expected error due to missing timestamp json %s", timestamp)
+	}
+}
