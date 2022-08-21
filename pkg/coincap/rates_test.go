@@ -86,3 +86,36 @@ func TestRatesBadURL(t *testing.T) {
 
 func TestRateByID(t *testing.T) {
 	teardown := setup()
+	defer teardown()
+
+	r.HandleFunc("/rates/{id}", func(w http.ResponseWriter, r *http.Request) {
+		w.Header().Set("Content-Type", "application/json")
+		w.WriteHeader(http.StatusOK)
+		fmt.Fprint(w, fixture("ratesByID.json"))
+	})
+
+	rate, _, err := client.RateByID("bitcoin")
+	if err != nil {
+		t.Fatal(err)
+	}
+	expected := Rate{
+		ID:             "bitcoin",
+		Symbol:         "BTC",
+		CurrencySymbol: "₿",
+		Type:           "crypto",
+		RateUSD:        "6460.9771089680171173",
+	}
+	if *rate != expected {
+		t.Errorf("Expected %s, Got %s", expected, rate)
+	}
+}
+
+func TestRatesMalformed(t *testing.T) {
+	teardown := setup()
+	defer teardown()
+
+	r.HandleFunc("/rates", func(w http.ResponseWriter, r *http.Request) {
+		w.Header().Set("Content-Type", "application/json")
+		w.WriteHeader(http.StatusOK)
+		fmt.Fprint(w, fixture("rates_malformed.json"))
+	})
