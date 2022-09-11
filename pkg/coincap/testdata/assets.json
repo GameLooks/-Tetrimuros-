@@ -5,4 +5,5 @@
             "rank": "88",
             "symbol": "BTCP",
             "name": "Bitcoin Private",
-            "supply": "20524490.00000
+            "supply": "20524490.0000000000000000",
+            "maxSupply": "2100
