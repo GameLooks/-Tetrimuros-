@@ -44,4 +44,5 @@
             "rank": "1052",
             "symbol": "BTCRED",
             "name": "Bitcoin Red",
-            "supply": "20550001.000000000000000
+            "supply": "20550001.0000000000000000",
+            "maxSupply": null,
