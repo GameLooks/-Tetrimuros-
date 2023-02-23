@@ -27,3 +27,35 @@
             "rank": "3",
             "percentTotalVolume": "10.330527433971347645000000000000000000",
             "volumeUsd": "632463700.7816657737020602",
+            "tradingPairs": "271",
+            "socket": true,
+            "updated": 1536336915732
+        },
+        {
+            "id": "bithumb",
+            "name": "Bithumb",
+            "rank": "4",
+            "percentTotalVolume": "7.208320089011231562000000000000000000",
+            "volumeUsd": "441313459.4583096505928451",
+            "tradingPairs": "26",
+            "socket": false,
+            "updated": 1536336903902
+        },
+        {
+            "id": "bitfinex",
+            "name": "Bitfinex",
+            "rank": "5",
+            "percentTotalVolume": "6.587571851979438228000000000000000000",
+            "volumeUsd": "403309521.1544649039516136",
+            "tradingPairs": "260",
+            "socket": true,
+            "updated": 1536336912447
+        },
+        {
+            "id": "zb",
+            "name": "ZB",
+            "rank": "6",
+            "percentTotalVolume": "4.562977546130637695000000000000000000",
+            "volumeUsd": "279358211.2680183454262858",
+            "tradingPairs": "39",
+            "socket": true,
