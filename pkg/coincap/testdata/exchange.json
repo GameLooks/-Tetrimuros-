@@ -59,3 +59,45 @@
             "volumeUsd": "279358211.2680183454262858",
             "tradingPairs": "39",
             "socket": true,
+            "updated": 1536336915650
+        },
+        {
+            "id": "lbank",
+            "name": "LBank",
+            "rank": "7",
+            "percentTotalVolume": "4.269679239529130993000000000000000000",
+            "volumeUsd": "261401670.9449970127334744",
+            "tradingPairs": "106",
+            "socket": false,
+            "updated": 1536336915280
+        },
+        {
+            "id": "hitbtc",
+            "name": "HitBTC",
+            "rank": "8",
+            "percentTotalVolume": "4.074948632583239734000000000000000000",
+            "volumeUsd": "249479720.0947961218349001",
+            "tradingPairs": "764",
+            "socket": true,
+            "updated": 1536336916211
+        },
+        {
+            "id": "bibox",
+            "name": "Bibox",
+            "rank": "9",
+            "percentTotalVolume": "2.913429703932037304000000000000000000",
+            "volumeUsd": "178368291.8702367406002952",
+            "tradingPairs": "192",
+            "socket": false,
+            "updated": 1536336901407
+        },
+        {
+            "id": "coinbene",
+            "name": "Coinbene",
+            "rank": "10",
+            "percentTotalVolume": "2.392592615505812476000000000000000000",
+            "volumeUsd": "146481192.7307339377639478",
+            "tradingPairs": "104",
+            "socket": false,
+            "updated": 1536336914691
+        },
