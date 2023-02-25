@@ -101,3 +101,41 @@
             "socket": false,
             "updated": 1536336914691
         },
+        {
+            "id": "gdax",
+            "name": "Gdax",
+            "rank": "11",
+            "percentTotalVolume": "2.237499515617900136000000000000000000",
+            "volumeUsd": "136985960.6094538799526652",
+            "tradingPairs": "15",
+            "socket": true,
+            "updated": 1536336900230
+        },
+        {
+            "id": "quoine",
+            "name": "Quoine",
+            "rank": "12",
+            "percentTotalVolume": "1.968574280457278245000000000000000000",
+            "volumeUsd": "120521607.6952018533767197",
+            "tradingPairs": "28",
+            "socket": false,
+            "updated": 1536336916271
+        },
+        {
+            "id": "bitstamp",
+            "name": "Bitstamp",
+            "rank": "13",
+            "percentTotalVolume": "1.450318159800586950000000000000000000",
+            "volumeUsd": "88792522.6007273256330094",
+            "tradingPairs": "15",
+            "socket": true,
+            "updated": 1536336898992
+        },
+        {
+            "id": "allcoin",
+            "name": "Allcoin",
+            "rank": "14",
+            "percentTotalVolume": "1.438926090430284549000000000000000000",
+            "volumeUsd": "88095068.3420212835471495",
+            "tradingPairs": "69",
+            "socket": false,
