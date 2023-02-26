@@ -217,3 +217,44 @@
             "rank": "22",
             "percentTotalVolume": "0.656050764177488826000000000000000000",
             "volumeUsd": "40165257.4725145729769764",
+            "tradingPairs": "1",
+            "socket": false,
+            "updated": 1536336907169
+        },
+        {
+            "id": "gemini",
+            "name": "Gemini",
+            "rank": "23",
+            "percentTotalVolume": "0.617741671837190601000000000000000000",
+            "volumeUsd": "37819867.9974858789230117",
+            "tradingPairs": "6",
+            "socket": true,
+            "updated": 1536336915252
+        },
+        {
+            "id": "poloniex",
+            "name": "Poloniex",
+            "rank": "24",
+            "percentTotalVolume": "0.582589115497271020000000000000000000",
+            "volumeUsd": "35667730.4598059988245778",
+            "tradingPairs": "102",
+            "socket": true,
+            "updated": 1536336916175
+        },
+        {
+            "id": "sistemkoin",
+            "name": "Sistemkoin",
+            "rank": "25",
+            "percentTotalVolume": "0.572616101758306342000000000000000000",
+            "volumeUsd": "35057154.7445187117724507",
+            "tradingPairs": "141",
+            "socket": false,
+            "updated": 1536336888394
+        },
+        {
+            "id": "exmo",
+            "name": "Exmo",
+            "rank": "26",
+            "percentTotalVolume": "0.477860022717433134000000000000000000",
+            "volumeUsd": "29255923.3161334529167900",
+            "tradingPairs": "77",
