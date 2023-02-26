@@ -258,3 +258,39 @@
             "percentTotalVolume": "0.477860022717433134000000000000000000",
             "volumeUsd": "29255923.3161334529167900",
             "tradingPairs": "77",
+            "socket": false,
+            "updated": 1536336916211
+        },
+        {
+            "id": "bigone",
+            "name": "BigONE",
+            "rank": "27",
+            "percentTotalVolume": "0.436697681777094943000000000000000000",
+            "volumeUsd": "26735850.0042565899582364",
+            "tradingPairs": "69",
+            "socket": false,
+            "updated": 1536336916248
+        },
+        {
+            "id": "ooobtc",
+            "name": "OOOBTC",
+            "rank": "28",
+            "percentTotalVolume": "0.396007360733668419000000000000000000",
+            "volumeUsd": "24244675.0669062411944019",
+            "tradingPairs": "26",
+            "socket": false,
+            "updated": 1536336870819
+        },
+        {
+            "id": "coinone",
+            "name": "Coinone",
+            "rank": "29",
+            "percentTotalVolume": "0.312870070871311681000000000000000000",
+            "volumeUsd": "19154778.3161949894767355",
+            "tradingPairs": "15",
+            "socket": false,
+            "updated": 1536336868926
+        },
+        {
+            "id": "itbit",
+            "name": "Itbit",
