@@ -139,3 +139,42 @@
             "volumeUsd": "88095068.3420212835471495",
             "tradingPairs": "69",
             "socket": false,
+            "updated": 1536336914990
+        },
+        {
+            "id": "kraken",
+            "name": "Kraken",
+            "rank": "15",
+            "percentTotalVolume": "1.251246716070447295000000000000000000",
+            "volumeUsd": "76604813.6162392381747501",
+            "tradingPairs": "57",
+            "socket": false,
+            "updated": 1536336915783
+        },
+        {
+            "id": "coinegg",
+            "name": "CoinEgg",
+            "rank": "16",
+            "percentTotalVolume": "1.229645004052597993000000000000000000",
+            "volumeUsd": "75282296.5605174685014374",
+            "tradingPairs": "151",
+            "socket": false,
+            "updated": 1536336891776
+        },
+        {
+            "id": "zaif",
+            "name": "Zaif",
+            "rank": "17",
+            "percentTotalVolume": "1.174394256403394783000000000000000000",
+            "volumeUsd": "71899691.6981309327817164",
+            "tradingPairs": "24",
+            "socket": false,
+            "updated": 1536336900788
+        },
+        {
+            "id": "bitbank",
+            "name": "Bitbank",
+            "rank": "18",
+            "percentTotalVolume": "1.066306963978694348000000000000000000",
+            "volumeUsd": "65282286.2063654336439660",
+            "tradingPairs": "8",
