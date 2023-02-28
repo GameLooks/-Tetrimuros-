@@ -361,3 +361,24 @@
             "socket": false,
             "updated": 1536336896365
         },
+        {
+            "id": "cex",
+            "name": "Cex",
+            "rank": "37",
+            "percentTotalVolume": "0.110079359257652576000000000000000000",
+            "volumeUsd": "6739365.3790438758227201",
+            "tradingPairs": "15",
+            "socket": false,
+            "updated": 1536336885427
+        },
+        {
+            "id": "btcturk",
+            "name": "BTCTurk",
+            "rank": "38",
+            "percentTotalVolume": "0.090319994901272747000000000000000000",
+            "volumeUsd": "5529641.9853637632137056",
+            "tradingPairs": "5",
+            "socket": false,
+            "updated": 1536336901070
+        },
+        {
