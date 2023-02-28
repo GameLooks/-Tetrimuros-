@@ -382,3 +382,40 @@
             "updated": 1536336901070
         },
         {
+            "id": "quadrigacx",
+            "name": "QuadrigaCX",
+            "rank": "39",
+            "percentTotalVolume": "0.071840219763193764000000000000000000",
+            "volumeUsd": "4398258.6123321177835084",
+            "tradingPairs": "10",
+            "socket": false,
+            "updated": 1536336915530
+        },
+        {
+            "id": "cryptopia",
+            "name": "Cryptopia",
+            "rank": "40",
+            "percentTotalVolume": "0.061982691744557717000000000000000000",
+            "volumeUsd": "3794753.2549266841253603",
+            "tradingPairs": "936",
+            "socket": false,
+            "updated": 1536336916271
+        },
+        {
+            "id": "idex",
+            "name": "IDEX",
+            "rank": "41",
+            "percentTotalVolume": "0.054638122774534155000000000000000000",
+            "volumeUsd": "3345098.2589821495564427",
+            "tradingPairs": "294",
+            "socket": false,
+            "updated": 1536336916211
+        },
+        {
+            "id": "tidex",
+            "name": "Tidex",
+            "rank": "42",
+            "percentTotalVolume": "0.053343993549405482000000000000000000",
+            "volumeUsd": "3265868.0585644019288747",
+            "tradingPairs": "79",
+            "socket": false,
