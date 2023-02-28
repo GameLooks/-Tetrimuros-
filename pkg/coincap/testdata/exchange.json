@@ -331,3 +331,33 @@
             "socket": false,
             "updated": 1536336916211
         },
+        {
+            "id": "kucoin",
+            "name": "Kucoin",
+            "rank": "34",
+            "percentTotalVolume": "0.223698471228974821000000000000000000",
+            "volumeUsd": "13695444.2913946196077511",
+            "tradingPairs": "368",
+            "socket": false,
+            "updated": 1536336874233
+        },
+        {
+            "id": "lakebtc",
+            "name": "Lakebtc",
+            "rank": "35",
+            "percentTotalVolume": "0.161345280714582542000000000000000000",
+            "volumeUsd": "9878008.0684779323041841",
+            "tradingPairs": "17",
+            "socket": false,
+            "updated": 1536336899954
+        },
+        {
+            "id": "korbit",
+            "name": "Korbit",
+            "rank": "36",
+            "percentTotalVolume": "0.142790530314988663000000000000000000",
+            "volumeUsd": "8742034.5008344561792852",
+            "tradingPairs": "5",
+            "socket": false,
+            "updated": 1536336896365
+        },
