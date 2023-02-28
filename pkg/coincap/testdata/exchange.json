@@ -294,3 +294,40 @@
         {
             "id": "itbit",
             "name": "Itbit",
+            "rank": "30",
+            "percentTotalVolume": "0.276629370248487953000000000000000000",
+            "volumeUsd": "16936021.5507410439892983",
+            "tradingPairs": "2",
+            "socket": false,
+            "updated": 1536336916123
+        },
+        {
+            "id": "bitbay",
+            "name": "BitBay",
+            "rank": "31",
+            "percentTotalVolume": "0.266925685857714604000000000000000000",
+            "volumeUsd": "16341934.9292947978845009",
+            "tradingPairs": "37",
+            "socket": false,
+            "updated": 1536336892027
+        },
+        {
+            "id": "livecoin",
+            "name": "Livecoin",
+            "rank": "32",
+            "percentTotalVolume": "0.245336505977932879000000000000000000",
+            "volumeUsd": "15020185.1260169704789531",
+            "tradingPairs": "316",
+            "socket": false,
+            "updated": 1536336864799
+        },
+        {
+            "id": "coinexchange",
+            "name": "CoinExchange",
+            "rank": "33",
+            "percentTotalVolume": "0.242661240713871308000000000000000000",
+            "volumeUsd": "14856397.9253831528997633",
+            "tradingPairs": "370",
+            "socket": false,
+            "updated": 1536336916211
+        },
