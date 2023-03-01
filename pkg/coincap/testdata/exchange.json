@@ -419,3 +419,31 @@
             "volumeUsd": "3265868.0585644019288747",
             "tradingPairs": "79",
             "socket": false,
+            "updated": 1536336916003
+        },
+        {
+            "id": "independentreserve",
+            "name": "Independent Reserve",
+            "rank": "43",
+            "percentTotalVolume": "0.046163924554454648000000000000000000",
+            "volumeUsd": "2826284.2098752203546527",
+            "tradingPairs": "15",
+            "socket": false,
+            "updated": 1536336914990
+        },
+        {
+            "id": "btcmarket",
+            "name": "BTCMarket",
+            "rank": "44",
+            "percentTotalVolume": "0.040334036757796872000000000000000000",
+            "volumeUsd": "2469362.2197267863468112",
+            "tradingPairs": "11",
+            "socket": false,
+            "updated": 1536336895443
+        },
+        {
+            "id": "luno",
+            "name": "Luno",
+            "rank": "45",
+            "percentTotalVolume": "0.039555636568404788000000000000000000",
+            "volumeUsd": "2421706.3892168034657003",
