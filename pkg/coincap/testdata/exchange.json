@@ -447,3 +447,47 @@
             "rank": "45",
             "percentTotalVolume": "0.039555636568404788000000000000000000",
             "volumeUsd": "2421706.3892168034657003",
+            "tradingPairs": "6",
+            "socket": true,
+            "updated": 1536336914190
+        },
+        {
+            "id": "bxinth",
+            "name": "Bxinth",
+            "rank": "46",
+            "percentTotalVolume": "0.035811126466008124000000000000000000",
+            "volumeUsd": "2192457.0375149514922856",
+            "tradingPairs": "22",
+            "socket": false,
+            "updated": 1536336863117
+        },
+        {
+            "id": "bitso",
+            "name": "Bitso",
+            "rank": "47",
+            "percentTotalVolume": "0.033019212138320952000000000000000000",
+            "volumeUsd": "2021528.2558781393702686",
+            "tradingPairs": "11",
+            "socket": true,
+            "updated": 1536336909804
+        },
+        {
+            "id": "wex",
+            "name": "Wex",
+            "rank": "48",
+            "percentTotalVolume": "0.018122602511869386000000000000000000",
+            "volumeUsd": "1109516.2687202456832790",
+            "tradingPairs": "39",
+            "socket": false,
+            "updated": 1536336915194
+        },
+        {
+            "id": "acx",
+            "name": "ACX",
+            "rank": "49",
+            "percentTotalVolume": "0.015992104434959330000000000000000000",
+            "volumeUsd": "979081.2346096249729192",
+            "tradingPairs": "8",
+            "socket": false,
+            "updated": 1536336901975
+        },
