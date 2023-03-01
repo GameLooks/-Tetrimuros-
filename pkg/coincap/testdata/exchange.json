@@ -491,3 +491,28 @@
             "socket": false,
             "updated": 1536336901975
         },
+        {
+            "id": "okcoin",
+            "name": "OkCoin",
+            "rank": "50",
+            "percentTotalVolume": "0.015195722149053656000000000000000000",
+            "volumeUsd": "930324.4900000000000000",
+            "tradingPairs": "5",
+            "socket": false,
+            "updated": 1536336911647
+        },
+        {
+            "id": "lykke",
+            "name": "Lykke",
+            "rank": "51",
+            "percentTotalVolume": "0.015189203349754327000000000000000000",
+            "volumeUsd": "929925.3909263216767050",
+            "tradingPairs": "45",
+            "socket": false,
+            "updated": 1536336874105
+        },
+        {
+            "id": "mercado",
+            "name": "Mercado",
+            "rank": "52",
+            "percentTotalVolume": "0.014718634772454502000000000000000000",
