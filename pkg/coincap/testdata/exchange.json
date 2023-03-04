@@ -516,3 +516,33 @@
             "name": "Mercado",
             "rank": "52",
             "percentTotalVolume": "0.014718634772454502000000000000000000",
+            "volumeUsd": "901115.8702340952105804",
+            "tradingPairs": "3",
+            "socket": false,
+            "updated": 1536336893397
+        },
+        {
+            "id": "bitmarket",
+            "name": "Bitmarket",
+            "rank": "53",
+            "percentTotalVolume": "0.0098959513167415543337000000000000000000",
+            "volumeUsd": "605857.7388759220530529",
+            "tradingPairs": "6",
+            "socket": false,
+            "updated": 1536336914888
+        },
+        {
+            "id": "coinmate",
+            "name": "Coinmate",
+            "rank": "54",
+            "percentTotalVolume": "0.0084027695677428427893000000000000000000",
+            "volumeUsd": "514440.9878002881764804",
+            "tradingPairs": "4",
+            "socket": true,
+            "updated": 1536336908583
+        },
+        {
+            "id": "tradesatoshi",
+            "name": "TradeSatoshi",
+            "rank": "55",
+            "percentTotalVolume": "0.0077279261173338193453000000000000000000",
