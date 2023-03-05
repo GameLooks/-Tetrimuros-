@@ -577,3 +577,40 @@
             "rank": "58",
             "percentTotalVolume": "0.0032819286749890198119000000000000000000",
             "volumeUsd": "200928.8266017474796286",
+            "tradingPairs": "43",
+            "socket": false,
+            "updated": 1536336879699
+        },
+        {
+            "id": "btctradeua",
+            "name": "BTC Trade UA",
+            "rank": "59",
+            "percentTotalVolume": "0.0023273653774193974377000000000000000000",
+            "volumeUsd": "142487.7992998971038451",
+            "tradingPairs": "17",
+            "socket": false,
+            "updated": 1536336862442
+        },
+        {
+            "id": "coinnest",
+            "name": "Coinnest",
+            "rank": "60",
+            "percentTotalVolume": "0.0019413266188703899799000000000000000000",
+            "volumeUsd": "118853.4298606200934207",
+            "tradingPairs": "19",
+            "socket": false,
+            "updated": 1536336915360
+        },
+        {
+            "id": "bleutrade",
+            "name": "Bleutrade",
+            "rank": "61",
+            "percentTotalVolume": "0.0010257206540276487272000000000000000000",
+            "volumeUsd": "62797.4791181718709326",
+            "tradingPairs": "95",
+            "socket": false,
+            "updated": 1536336870655
+        },
+        {
+            "id": "gatecoin",
+            "name": "Gatecoin",
