@@ -1,0 +1,10 @@
+
+{
+    "data": [{
+        "exchangeId": "binance",
+        "rank": "4",
+        "baseSymbol": "ETH",
+        "baseId": "ethereum",
+        "quoteSymbol": "BTC",
+        "quoteId": "bitcoin",
+        "priceQuote": "0.0338800000000000",

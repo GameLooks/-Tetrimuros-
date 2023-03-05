@@ -614,3 +614,13 @@
         {
             "id": "gatecoin",
             "name": "Gatecoin",
+            "rank": "62",
+            "percentTotalVolume": "0.0009395987679768119846000000000000000000",
+            "volumeUsd": "57524.8570649269370664",
+            "tradingPairs": "10",
+            "socket": false,
+            "updated": 1536336906748
+        }
+    ],
+    "timestamp": 1536336928185
+}
