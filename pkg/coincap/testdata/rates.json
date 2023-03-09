@@ -58,3 +58,47 @@
             "rateUsd": "0.0013750106599420"
         },
         {
+            "id": "ukrainian-hryvnia",
+            "symbol": "UAH",
+            "currencySymbol": "₴",
+            "type": "fiat",
+            "rateUsd": "0.0354145270389914"
+        },
+        {
+            "id": "nigerian-naira",
+            "symbol": "NGN",
+            "currencySymbol": "₦",
+            "type": "fiat",
+            "rateUsd": "0.0027819507038335"
+        },
+        {
+            "id": "canadian-dollar",
+            "symbol": "CAD",
+            "currencySymbol": "$",
+            "type": "fiat",
+            "rateUsd": "0.7608294562732291"
+        },
+        {
+            "id": "chilean-unit-of-account-(uf)",
+            "symbol": "CLF",
+            "currencySymbol": null,
+            "type": "fiat",
+            "rateUsd": "42.7715996578272000"
+        },
+        {
+            "id": "dash",
+            "symbol": "DASH",
+            "currencySymbol": null,
+            "type": "crypto",
+            "rateUsd": "176.1566618440074234"
+        },
+        {
+            "id": "polish-zloty",
+            "symbol": "PLN",
+            "currencySymbol": "zł",
+            "type": "fiat",
+            "rateUsd": "0.2688967167710882"
+        },
+        {
+            "id": "argentine-peso",
+            "symbol": "ARS",
