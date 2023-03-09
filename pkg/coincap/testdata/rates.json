@@ -1,2 +1,29 @@
 
 {
+    "data": [
+        {
+            "id": "romanian-leu",
+            "symbol": "RON",
+            "currencySymbol": "lei",
+            "type": "fiat",
+            "rateUsd": "0.2505529076289101"
+        },
+        {
+            "id": "falkland-islands-pound",
+            "symbol": "FKP",
+            "currencySymbol": "£",
+            "type": "fiat",
+            "rateUsd": "1.2927479425916495"
+        },
+        {
+            "id": "tether",
+            "symbol": "USDT",
+            "currencySymbol": null,
+            "type": "crypto",
+            "rateUsd": "0.9976573005222252"
+        },
+        {
+            "id": "sri-lankan-rupee",
+            "symbol": "LKR",
+            "currencySymbol": "₨",
+            "type": "fiat",
