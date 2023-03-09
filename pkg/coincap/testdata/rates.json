@@ -27,3 +27,34 @@
             "symbol": "LKR",
             "currencySymbol": "₨",
             "type": "fiat",
+            "rateUsd": "0.0061868038097942"
+        },
+        {
+            "id": "bosnia-herzegovina-convertible-mark",
+            "symbol": "BAM",
+            "currencySymbol": "KM",
+            "type": "fiat",
+            "rateUsd": "0.5946027904708957"
+        },
+        {
+            "id": "belize-dollar",
+            "symbol": "BZD",
+            "currencySymbol": "BZ$",
+            "type": "fiat",
+            "rateUsd": "0.4975569951537949"
+        },
+        {
+            "id": "barbadian-dollar",
+            "symbol": "BBD",
+            "currencySymbol": "$",
+            "type": "fiat",
+            "rateUsd": "0.5000000000000000"
+        },
+        {
+            "id": "malawian-kwacha",
+            "symbol": "MWK",
+            "currencySymbol": "MK",
+            "type": "fiat",
+            "rateUsd": "0.0013750106599420"
+        },
+        {
