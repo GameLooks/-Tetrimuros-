@@ -102,3 +102,39 @@
         {
             "id": "argentine-peso",
             "symbol": "ARS",
+            "currencySymbol": "$",
+            "type": "fiat",
+            "rateUsd": "0.0267271055613761"
+        },
+        {
+            "id": "algerian-dinar",
+            "symbol": "DZD",
+            "currencySymbol": null,
+            "type": "fiat",
+            "rateUsd": "0.0084665375807548"
+        },
+        {
+            "id": "icelandic-króna",
+            "symbol": "ISK",
+            "currencySymbol": "kr",
+            "type": "fiat",
+            "rateUsd": "0.0090236379520099"
+        },
+        {
+            "id": "armenian-dram",
+            "symbol": "AMD",
+            "currencySymbol": "֏",
+            "type": "fiat",
+            "rateUsd": "0.0020620478231987"
+        },
+        {
+            "id": "cfa-franc-beac",
+            "symbol": "XAF",
+            "currencySymbol": null,
+            "type": "fiat",
+            "rateUsd": "0.0017719346743466"
+        },
+        {
+            "id": "kenyan-shilling",
+            "symbol": "KES",
+            "currencySymbol": "KSh",
