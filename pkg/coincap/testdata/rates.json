@@ -138,3 +138,32 @@
             "id": "kenyan-shilling",
             "symbol": "KES",
             "currencySymbol": "KSh",
+            "type": "fiat",
+            "rateUsd": "0.0099275290380224"
+        },
+        {
+            "id": "lesotho-loti",
+            "symbol": "LSL",
+            "currencySymbol": null,
+            "type": "fiat",
+            "rateUsd": "0.0651761744583697"
+        },
+        {
+            "id": "cfa-franc-bceao",
+            "symbol": "XOF",
+            "currencySymbol": null,
+            "type": "fiat",
+            "rateUsd": "0.0017719346743466"
+        },
+        {
+            "id": "jamaican-dollar",
+            "symbol": "JMD",
+            "currencySymbol": "J$",
+            "type": "fiat",
+            "rateUsd": "0.0073237847585360"
+        },
+        {
+            "id": "cuban-peso",
+            "symbol": "CUP",
+            "currencySymbol": "₱",
+            "type": "fiat",
