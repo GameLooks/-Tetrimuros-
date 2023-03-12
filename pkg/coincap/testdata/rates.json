@@ -167,3 +167,52 @@
             "symbol": "CUP",
             "currencySymbol": "₱",
             "type": "fiat",
+            "rateUsd": "0.0392156862745098"
+        },
+        {
+            "id": "burundian-franc",
+            "symbol": "BIF",
+            "currencySymbol": null,
+            "type": "fiat",
+            "rateUsd": "0.0005648293046529"
+        },
+        {
+            "id": "croatian-kuna",
+            "symbol": "HRK",
+            "currencySymbol": "kn",
+            "type": "fiat",
+            "rateUsd": "0.1564038622995372"
+        },
+        {
+            "id": "belarusian-ruble",
+            "symbol": "BYN",
+            "currencySymbol": "Br",
+            "type": "fiat",
+            "rateUsd": "0.4716482786724422"
+        },
+        {
+            "id": "tajikistani-somoni",
+            "symbol": "TJS",
+            "currencySymbol": null,
+            "type": "fiat",
+            "rateUsd": "0.1061068750888645"
+        },
+        {
+            "id": "tanzanian-shilling",
+            "symbol": "TZS",
+            "currencySymbol": null,
+            "type": "fiat",
+            "rateUsd": "0.0004372158097237"
+        },
+        {
+            "id": "new-taiwan-dollar",
+            "symbol": "TWD",
+            "currencySymbol": "NT$",
+            "type": "fiat",
+            "rateUsd": "0.0324939073923639"
+        },
+        {
+            "id": "congolese-franc",
+            "symbol": "CDF",
+            "currencySymbol": null,
+            "type": "fiat",
