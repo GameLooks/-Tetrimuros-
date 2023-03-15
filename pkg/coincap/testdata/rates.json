@@ -216,3 +216,46 @@
             "symbol": "CDF",
             "currencySymbol": null,
             "type": "fiat",
+            "rateUsd": "0.0006090905988589"
+        },
+        {
+            "id": "mongolian-tugrik",
+            "symbol": "MNT",
+            "currencySymbol": "₮",
+            "type": "fiat",
+            "rateUsd": "0.0004094724629210"
+        },
+        {
+            "id": "salvadoran-colón",
+            "symbol": "SVC",
+            "currencySymbol": "$",
+            "type": "fiat",
+            "rateUsd": "0.1142925195888807"
+        },
+        {
+            "id": "paraguayan-guarani",
+            "symbol": "PYG",
+            "currencySymbol": "Gs",
+            "type": "fiat",
+            "rateUsd": "0.0001713823000976"
+        },
+        {
+            "id": "sudanese-pound",
+            "symbol": "SDG",
+            "currencySymbol": null,
+            "type": "fiat",
+            "rateUsd": "0.0555609573152946"
+        },
+        {
+            "id": "papua-new-guinean-kina",
+            "symbol": "PGK",
+            "currencySymbol": "K",
+            "type": "fiat",
+            "rateUsd": "0.3008442592447185"
+        },
+        {
+            "id": "bitcoin-cash",
+            "symbol": "BCH",
+            "currencySymbol": null,
+            "type": "crypto",
+            "rateUsd": "508.2829497781632478"
