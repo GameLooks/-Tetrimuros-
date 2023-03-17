@@ -259,3 +259,30 @@
             "currencySymbol": null,
             "type": "crypto",
             "rateUsd": "508.2829497781632478"
+        },
+        {
+            "id": "litecoin",
+            "symbol": "LTC",
+            "currencySymbol": null,
+            "type": "crypto",
+            "rateUsd": "56.0606104958289844"
+        },
+        {
+            "id": "qatari-rial",
+            "symbol": "QAR",
+            "currencySymbol": "﷼",
+            "type": "fiat",
+            "rateUsd": "0.2746106775771319"
+        },
+        {
+            "id": "azerbaijani-manat",
+            "symbol": "AZN",
+            "currencySymbol": "₼",
+            "type": "fiat",
+            "rateUsd": "0.5873715124816447"
+        },
+        {
+            "id": "mozambican-metical",
+            "symbol": "MZN",
+            "currencySymbol": "MT",
+            "type": "fiat",
