@@ -286,3 +286,39 @@
             "symbol": "MZN",
             "currencySymbol": "MT",
             "type": "fiat",
+            "rateUsd": "0.0166071576849622"
+        },
+        {
+            "id": "sierra-leonean-leone",
+            "symbol": "SLL",
+            "currencySymbol": "Le",
+            "type": "fiat",
+            "rateUsd": "0.0001191895113230"
+        },
+        {
+            "id": "haitian-gourde",
+            "symbol": "HTG",
+            "currencySymbol": "G",
+            "type": "fiat",
+            "rateUsd": "0.0144709042355787"
+        },
+        {
+            "id": "somali-shilling",
+            "symbol": "SOS",
+            "currencySymbol": "S",
+            "type": "fiat",
+            "rateUsd": "0.0017287600810959"
+        },
+        {
+            "id": "north-korean-won",
+            "symbol": "KPW",
+            "currencySymbol": "₩",
+            "type": "fiat",
+            "rateUsd": "0.0011111111111111"
+        },
+        {
+            "id": "moldovan-leu",
+            "symbol": "MDL",
+            "currencySymbol": null,
+            "type": "fiat",
+            "rateUsd": "0.0597496703909433"
