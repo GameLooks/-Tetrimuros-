@@ -382,3 +382,45 @@
         {
             "id": "manx-pound",
             "symbol": "IMP",
+            "currencySymbol": "£",
+            "type": "fiat",
+            "rateUsd": "1.2927479425916495"
+        },
+        {
+            "id": "mauritian-rupee",
+            "symbol": "MUR",
+            "currencySymbol": "₨",
+            "type": "fiat",
+            "rateUsd": "0.0291122010136927"
+        },
+        {
+            "id": "guyanaese-dollar",
+            "symbol": "GYD",
+            "currencySymbol": "$",
+            "type": "fiat",
+            "rateUsd": "0.0047896962674462"
+        },
+        {
+            "id": "comorian-franc",
+            "symbol": "KMF",
+            "currencySymbol": null,
+            "type": "fiat",
+            "rateUsd": "0.0023469122956340"
+        },
+        {
+            "id": "bahraini-dinar",
+            "symbol": "BHD",
+            "currencySymbol": "BD",
+            "type": "fiat",
+            "rateUsd": "2.6520274750046410"
+        },
+        {
+            "id": "macedonian-denar",
+            "symbol": "MKD",
+            "currencySymbol": "ден",
+            "type": "fiat",
+            "rateUsd": "0.0188784323349789"
+        },
+        {
+            "id": "guatemalan-quetzal",
+            "symbol": "GTQ",
