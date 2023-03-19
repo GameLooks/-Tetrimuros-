@@ -347,3 +347,38 @@
         {
             "id": "bolivian-boliviano",
             "symbol": "BOB",
+            "currencySymbol": "$b",
+            "type": "fiat",
+            "rateUsd": "0.1447314146772128"
+        },
+        {
+            "id": "surinamese-dollar",
+            "symbol": "SRD",
+            "currencySymbol": "$",
+            "type": "fiat",
+            "rateUsd": "0.1340842048806651"
+        },
+        {
+            "id": "indonesian-rupiah",
+            "symbol": "IDR",
+            "currencySymbol": "Rp",
+            "type": "fiat",
+            "rateUsd": "0.0000693807534765"
+        },
+        {
+            "id": "qtum",
+            "symbol": "QTUM",
+            "currencySymbol": null,
+            "type": "crypto",
+            "rateUsd": "3.9375955419594427"
+        },
+        {
+            "id": "gibraltar-pound",
+            "symbol": "GIP",
+            "currencySymbol": "£",
+            "type": "fiat",
+            "rateUsd": "1.2927479425916495"
+        },
+        {
+            "id": "manx-pound",
+            "symbol": "IMP",
