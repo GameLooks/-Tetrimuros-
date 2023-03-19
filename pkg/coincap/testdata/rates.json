@@ -322,3 +322,28 @@
             "currencySymbol": null,
             "type": "fiat",
             "rateUsd": "0.0597496703909433"
+        },
+        {
+            "id": "malaysian-ringgit",
+            "symbol": "MYR",
+            "currencySymbol": "RM",
+            "type": "fiat",
+            "rateUsd": "0.2415549374433101"
+        },
+        {
+            "id": "zimbabwean-dollar",
+            "symbol": "ZWL",
+            "currencySymbol": "$",
+            "type": "fiat",
+            "rateUsd": "0.0031021698620345"
+        },
+        {
+            "id": "south-african-rand",
+            "symbol": "ZAR",
+            "currencySymbol": "R",
+            "type": "fiat",
+            "rateUsd": "0.0651846671843633"
+        },
+        {
+            "id": "bolivian-boliviano",
+            "symbol": "BOB",
