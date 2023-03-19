@@ -424,3 +424,33 @@
         {
             "id": "guatemalan-quetzal",
             "symbol": "GTQ",
+            "currencySymbol": "Q",
+            "type": "fiat",
+            "rateUsd": "0.1315069991970183"
+        },
+        {
+            "id": "honduran-lempira",
+            "symbol": "HNL",
+            "currencySymbol": "L",
+            "type": "fiat",
+            "rateUsd": "0.0416612940956156"
+        },
+        {
+            "id": "saudi-riyal",
+            "symbol": "SAR",
+            "currencySymbol": "﷼",
+            "type": "fiat",
+            "rateUsd": "0.2666097899114855"
+        },
+        {
+            "id": "namibian-dollar",
+            "symbol": "NAD",
+            "currencySymbol": "$",
+            "type": "fiat",
+            "rateUsd": "0.0651761744583697"
+        },
+        {
+            "id": "turkish-lira",
+            "symbol": "TRY",
+            "currencySymbol": "Kr",
+            "type": "fiat",
