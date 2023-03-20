@@ -454,3 +454,35 @@
             "symbol": "TRY",
             "currencySymbol": "Kr",
             "type": "fiat",
+            "rateUsd": "0.1518432249071479"
+        },
+        {
+            "id": "macanese-pataca",
+            "symbol": "MOP",
+            "currencySymbol": "MOP$",
+            "type": "fiat",
+            "rateUsd": "0.1236981083343085"
+        },
+        {
+            "id": "united-arab-emirates-dirham",
+            "symbol": "AED",
+            "currencySymbol": "فلس",
+            "type": "fiat",
+            "rateUsd": "0.2722498949115406"
+        },
+        {
+            "id": "georgian-lari",
+            "symbol": "GEL",
+            "currencySymbol": null,
+            "type": "fiat",
+            "rateUsd": "0.4086653398665299"
+        },
+        {
+            "id": "ghanaian-cedi",
+            "symbol": "GHS",
+            "currencySymbol": "¢",
+            "type": "fiat",
+            "rateUsd": "0.2118913421197610"
+        },
+        {
+            "id": "malagasy-ariary",
