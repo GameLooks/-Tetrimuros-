@@ -486,3 +486,46 @@
         },
         {
             "id": "malagasy-ariary",
+            "symbol": "MGA",
+            "currencySymbol": "Ar",
+            "type": "fiat",
+            "rateUsd": "0.0002958900525801"
+        },
+        {
+            "id": "maldivian-rufiyaa",
+            "symbol": "MVR",
+            "currencySymbol": null,
+            "type": "fiat",
+            "rateUsd": "0.0646830697756972"
+        },
+        {
+            "id": "hong-kong-dollar",
+            "symbol": "HKD",
+            "currencySymbol": "$",
+            "type": "fiat",
+            "rateUsd": "0.1274007070739243"
+        },
+        {
+            "id": "chilean-peso",
+            "symbol": "CLP",
+            "currencySymbol": "$",
+            "type": "fiat",
+            "rateUsd": "0.0014509576320371"
+        },
+        {
+            "id": "myanma-kyat",
+            "symbol": "MMK",
+            "currencySymbol": "K",
+            "type": "fiat",
+            "rateUsd": "0.0006458690853358"
+        },
+        {
+            "id": "east-caribbean-dollar",
+            "symbol": "XCD",
+            "currencySymbol": "$",
+            "type": "fiat",
+            "rateUsd": "0.3700209061811993"
+        },
+        {
+            "id": "thai-baht",
+            "symbol": "THB",
