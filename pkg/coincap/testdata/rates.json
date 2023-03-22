@@ -584,3 +584,34 @@
         },
         {
             "id": "swiss-franc",
+            "symbol": "CHF",
+            "currencySymbol": "CHF",
+            "type": "fiat",
+            "rateUsd": "1.0352502717531964"
+        },
+        {
+            "id": "jordanian-dinar",
+            "symbol": "JOD",
+            "currencySymbol": null,
+            "type": "fiat",
+            "rateUsd": "1.4094313508271954"
+        },
+        {
+            "id": "new-zealand-dollar",
+            "symbol": "NZD",
+            "currencySymbol": "$",
+            "type": "fiat",
+            "rateUsd": "0.6587098903313904"
+        },
+        {
+            "id": "singapore-dollar",
+            "symbol": "SGD",
+            "currencySymbol": "$",
+            "type": "fiat",
+            "rateUsd": "0.7273250946795442"
+        },
+        {
+            "id": "ugandan-shilling",
+            "symbol": "UGX",
+            "currencySymbol": "UGX",
+            "type": "fiat",
