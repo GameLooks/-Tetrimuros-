@@ -557,3 +557,30 @@
         {
             "id": "philippine-peso",
             "symbol": "PHP",
+            "currencySymbol": "₱",
+            "type": "fiat",
+            "rateUsd": "0.0185234999678988"
+        },
+        {
+            "id": "tunisian-dinar",
+            "symbol": "TND",
+            "currencySymbol": null,
+            "type": "fiat",
+            "rateUsd": "0.3609472410636682"
+        },
+        {
+            "id": "iranian-rial",
+            "symbol": "IRR",
+            "currencySymbol": "﷼",
+            "type": "fiat",
+            "rateUsd": "0.0000231679381365"
+        },
+        {
+            "id": "lebanese-pound",
+            "symbol": "LBP",
+            "currencySymbol": "£",
+            "type": "fiat",
+            "rateUsd": "0.0006610477607007"
+        },
+        {
+            "id": "swiss-franc",
