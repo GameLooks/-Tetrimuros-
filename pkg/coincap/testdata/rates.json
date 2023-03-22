@@ -529,3 +529,31 @@
         {
             "id": "thai-baht",
             "symbol": "THB",
+            "currencySymbol": "฿",
+            "type": "fiat",
+            "rateUsd": "0.0304959402279572"
+        },
+        {
+            "id": "cayman-islands-dollar",
+            "symbol": "KYD",
+            "currencySymbol": "$",
+            "type": "fiat",
+            "rateUsd": "1.2001401763726003"
+        },
+        {
+            "id": "nepalese-rupee",
+            "symbol": "NPR",
+            "currencySymbol": "₨",
+            "type": "fiat",
+            "rateUsd": "0.0086948703916535"
+        },
+        {
+            "id": "special-drawing-rights",
+            "symbol": "XDR",
+            "currencySymbol": null,
+            "type": "fiat",
+            "rateUsd": "1.4010586399083147"
+        },
+        {
+            "id": "philippine-peso",
+            "symbol": "PHP",
