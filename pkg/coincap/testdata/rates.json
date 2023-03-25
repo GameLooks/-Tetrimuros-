@@ -651,3 +651,29 @@
             "currencySymbol": "P",
             "type": "fiat",
             "rateUsd": "0.0910123899717088"
+        },
+        {
+            "id": "indian-rupee",
+            "symbol": "INR",
+            "currencySymbol": "₹",
+            "type": "fiat",
+            "rateUsd": "0.0139024051160851"
+        },
+        {
+            "id": "israeli-new-sheqel",
+            "symbol": "ILS",
+            "currencySymbol": "₪",
+            "type": "fiat",
+            "rateUsd": "0.2789400278940028"
+        },
+        {
+            "id": "netherlands-antillean-guilder",
+            "symbol": "ANG",
+            "currencySymbol": "ƒ",
+            "type": "fiat",
+            "rateUsd": "0.5420597729311611"
+        },
+        {
+            "id": "binance-coin",
+            "symbol": "BNB",
+            "currencySymbol": null,
