@@ -677,3 +677,38 @@
             "id": "binance-coin",
             "symbol": "BNB",
             "currencySymbol": null,
+            "type": "crypto",
+            "rateUsd": "9.9881422441346814"
+        },
+        {
+            "id": "platinum-ounce",
+            "symbol": "XPT",
+            "currencySymbol": null,
+            "type": "fiat",
+            "rateUsd": "791.4899005888685000"
+        },
+        {
+            "id": "euro",
+            "symbol": "EUR",
+            "currencySymbol": "€",
+            "type": "fiat",
+            "rateUsd": "1.1623136084839594"
+        },
+        {
+            "id": "solomon-islands-dollar",
+            "symbol": "SBD",
+            "currencySymbol": "$",
+            "type": "fiat",
+            "rateUsd": "0.1267570106133645"
+        },
+        {
+            "id": "brunei-dollar",
+            "symbol": "BND",
+            "currencySymbol": "$",
+            "type": "fiat",
+            "rateUsd": "0.6618672466388726"
+        },
+        {
+            "id": "uzbekistan-som",
+            "symbol": "UZS",
+            "currencySymbol": "лв",
