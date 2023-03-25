@@ -615,3 +615,39 @@
             "symbol": "UGX",
             "currencySymbol": "UGX",
             "type": "fiat",
+            "rateUsd": "0.0002649279567790"
+        },
+        {
+            "id": "norwegian-krone",
+            "symbol": "NOK",
+            "currencySymbol": "kr",
+            "type": "fiat",
+            "rateUsd": "0.1187757498402169"
+        },
+        {
+            "id": "guinean-franc",
+            "symbol": "GNF",
+            "currencySymbol": null,
+            "type": "fiat",
+            "rateUsd": "0.0001105573157216"
+        },
+        {
+            "id": "chinese-yuan-renminbi",
+            "symbol": "CNY",
+            "currencySymbol": "¥",
+            "type": "fiat",
+            "rateUsd": "0.1462932366003441"
+        },
+        {
+            "id": "yemeni-rial",
+            "symbol": "YER",
+            "currencySymbol": "﷼",
+            "type": "fiat",
+            "rateUsd": "0.0039944193328394"
+        },
+        {
+            "id": "botswanan-pula",
+            "symbol": "BWP",
+            "currencySymbol": "P",
+            "type": "fiat",
+            "rateUsd": "0.0910123899717088"
