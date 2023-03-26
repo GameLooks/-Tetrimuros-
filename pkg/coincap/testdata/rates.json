@@ -712,3 +712,32 @@
             "id": "uzbekistan-som",
             "symbol": "UZS",
             "currencySymbol": "лв",
+            "type": "fiat",
+            "rateUsd": "0.0001277728746179"
+        },
+        {
+            "id": "libyan-dinar",
+            "symbol": "LYD",
+            "currencySymbol": "LD",
+            "type": "fiat",
+            "rateUsd": "0.7224467827638646"
+        },
+        {
+            "id": "cfp-franc",
+            "symbol": "XPF",
+            "currencySymbol": null,
+            "type": "fiat",
+            "rateUsd": "0.0097401825777744"
+        },
+        {
+            "id": "swedish-krona",
+            "symbol": "SEK",
+            "currencySymbol": "kr",
+            "type": "fiat",
+            "rateUsd": "0.1098173890564336"
+        },
+        {
+            "id": "mauritanian-ouguiya",
+            "symbol": "MRU",
+            "currencySymbol": null,
+            "type": "fiat",
