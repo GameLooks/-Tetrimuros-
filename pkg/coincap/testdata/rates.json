@@ -741,3 +741,43 @@
             "symbol": "MRU",
             "currencySymbol": null,
             "type": "fiat",
+            "rateUsd": "0.0278164116828929"
+        },
+        {
+            "id": "bitcoin",
+            "symbol": "BTC",
+            "currencySymbol": "₿",
+            "type": "crypto",
+            "rateUsd": "6460.1796787111878264"
+        },
+        {
+            "id": "uruguayan-peso",
+            "symbol": "UYU",
+            "currencySymbol": "$U",
+            "type": "fiat",
+            "rateUsd": "0.0308076778032006"
+        },
+        {
+            "id": "japanese-yen",
+            "symbol": "JPY",
+            "currencySymbol": "¥",
+            "type": "fiat",
+            "rateUsd": "0.0090191568849393"
+        },
+        {
+            "id": "eritrean-nakfa",
+            "symbol": "ERN",
+            "currencySymbol": null,
+            "type": "fiat",
+            "rateUsd": "0.0666825237708194"
+        },
+        {
+            "id": "guernsey-pound",
+            "symbol": "GGP",
+            "currencySymbol": "£",
+            "type": "fiat",
+            "rateUsd": "1.2927479425916495"
+        },
+        {
+            "id": "mexican-peso",
+            "symbol": "MXN",
