@@ -824,3 +824,38 @@
             "id": "omani-rial",
             "symbol": "OMR",
             "currencySymbol": "﷼",
+            "type": "fiat",
+            "rateUsd": "2.5973688653394110"
+        },
+        {
+            "id": "kuwaiti-dinar",
+            "symbol": "KWD",
+            "currencySymbol": "ك",
+            "type": "fiat",
+            "rateUsd": "3.3021718384181273"
+        },
+        {
+            "id": "ethereum",
+            "symbol": "ETH",
+            "currencySymbol": null,
+            "type": "crypto",
+            "rateUsd": "225.6797752421721147"
+        },
+        {
+            "id": "chinese-yuan-(offshore)",
+            "symbol": "CNH",
+            "currencySymbol": null,
+            "type": "fiat",
+            "rateUsd": "0.1461298033049009"
+        },
+        {
+            "id": "ethiopian-birr",
+            "symbol": "ETB",
+            "currencySymbol": "Br",
+            "type": "fiat",
+            "rateUsd": "0.0361598212027017"
+        },
+        {
+            "id": "colombian-peso",
+            "symbol": "COP",
+            "currencySymbol": "$",
