@@ -781,3 +781,46 @@
         {
             "id": "mexican-peso",
             "symbol": "MXN",
+            "currencySymbol": "$",
+            "type": "fiat",
+            "rateUsd": "0.0519734933105177"
+        },
+        {
+            "id": "vietnamese-dong",
+            "symbol": "VND",
+            "currencySymbol": "₫",
+            "type": "fiat",
+            "rateUsd": "0.0000432630971752"
+        },
+        {
+            "id": "rwandan-franc",
+            "symbol": "RWF",
+            "currencySymbol": null,
+            "type": "fiat",
+            "rateUsd": "0.0011354588975529"
+        },
+        {
+            "id": "brazilian-real",
+            "symbol": "BRL",
+            "currencySymbol": "R$",
+            "type": "fiat",
+            "rateUsd": "0.2436702984912422"
+        },
+        {
+            "id": "bulgarian-lev",
+            "symbol": "BGN",
+            "currencySymbol": "лв",
+            "type": "fiat",
+            "rateUsd": "0.5943536404160475"
+        },
+        {
+            "id": "vanuatu-vatu",
+            "symbol": "VUV",
+            "currencySymbol": "VT",
+            "type": "fiat",
+            "rateUsd": "0.0092166234153571"
+        },
+        {
+            "id": "omani-rial",
+            "symbol": "OMR",
+            "currencySymbol": "﷼",
