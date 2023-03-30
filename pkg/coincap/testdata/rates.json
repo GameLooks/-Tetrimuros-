@@ -859,3 +859,32 @@
             "id": "colombian-peso",
             "symbol": "COP",
             "currencySymbol": "$",
+            "type": "fiat",
+            "rateUsd": "0.0003227726918935"
+        },
+        {
+            "id": "czech-republic-koruna",
+            "symbol": "CZK",
+            "currencySymbol": "Kč",
+            "type": "fiat",
+            "rateUsd": "0.0451887534230481"
+        },
+        {
+            "id": "pakistani-rupee",
+            "symbol": "PKR",
+            "currencySymbol": "₨",
+            "type": "fiat",
+            "rateUsd": "0.0081221572449643"
+        },
+        {
+            "id": "zcash",
+            "symbol": "ZEC",
+            "currencySymbol": null,
+            "type": "crypto",
+            "rateUsd": "128.4577107215212783"
+        },
+        {
+            "id": "jersey-pound",
+            "symbol": "JEP",
+            "currencySymbol": "£",
+            "type": "fiat",
