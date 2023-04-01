@@ -917,3 +917,41 @@
             "currencySymbol": "$",
             "type": "fiat",
             "rateUsd": "0.7199097521134751"
+        },
+        {
+            "id": "zambian-kwacha",
+            "symbol": "ZMW",
+            "currencySymbol": "ZK",
+            "type": "fiat",
+            "rateUsd": "0.0970496894409938"
+        },
+        {
+            "id": "liberian-dollar",
+            "symbol": "LRD",
+            "currencySymbol": "$",
+            "type": "fiat",
+            "rateUsd": "0.0064829836007873"
+        },
+        {
+            "id": "russian-ruble",
+            "symbol": "RUB",
+            "currencySymbol": "₽",
+            "type": "fiat",
+            "rateUsd": "0.0144469630316663"
+        },
+        {
+            "id": "são-tomé-and-príncipe-dobra-(pre-2018)",
+            "symbol": "STD",
+            "currencySymbol": null,
+            "type": "fiat",
+            "rateUsd": "0.0000475045850725"
+        },
+        {
+            "id": "panamanian-balboa",
+            "symbol": "PAB",
+            "currencySymbol": "B/.",
+            "type": "fiat",
+            "rateUsd": "1.0000000000000000"
+        },
+        {
+            "id": "dominican-peso",
