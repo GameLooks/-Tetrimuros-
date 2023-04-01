@@ -955,3 +955,34 @@
         },
         {
             "id": "dominican-peso",
+            "symbol": "DOP",
+            "currencySymbol": "RD$",
+            "type": "fiat",
+            "rateUsd": "0.0199900049975013"
+        },
+        {
+            "id": "costa-rican-colón",
+            "symbol": "CRC",
+            "currencySymbol": "₡",
+            "type": "fiat",
+            "rateUsd": "0.0017392298521857"
+        },
+        {
+            "id": "syrian-pound",
+            "symbol": "SYP",
+            "currencySymbol": "£",
+            "type": "fiat",
+            "rateUsd": "0.0019418230211236"
+        },
+        {
+            "id": "swazi-lilangeni",
+            "symbol": "SZL",
+            "currencySymbol": null,
+            "type": "fiat",
+            "rateUsd": "0.0651508241579256"
+        },
+        {
+            "id": "aruban-florin",
+            "symbol": "AWG",
+            "currencySymbol": "ƒ",
+            "type": "fiat",
