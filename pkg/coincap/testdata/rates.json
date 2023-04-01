@@ -888,3 +888,32 @@
             "symbol": "JEP",
             "currencySymbol": "£",
             "type": "fiat",
+            "rateUsd": "1.2927479425916495"
+        },
+        {
+            "id": "kyrgystani-som",
+            "symbol": "KGS",
+            "currencySymbol": "лв",
+            "type": "fiat",
+            "rateUsd": "0.0146762102931278"
+        },
+        {
+            "id": "gambian-dalasi",
+            "symbol": "GMD",
+            "currencySymbol": null,
+            "type": "fiat",
+            "rateUsd": "0.0208181534297908"
+        },
+        {
+            "id": "british-pound-sterling",
+            "symbol": "GBP",
+            "currencySymbol": "£",
+            "type": "fiat",
+            "rateUsd": "1.2927479425916495"
+        },
+        {
+            "id": "australian-dollar",
+            "symbol": "AUD",
+            "currencySymbol": "$",
+            "type": "fiat",
+            "rateUsd": "0.7199097521134751"
