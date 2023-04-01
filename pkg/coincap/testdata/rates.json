@@ -986,3 +986,43 @@
             "symbol": "AWG",
             "currencySymbol": "ƒ",
             "type": "fiat",
+            "rateUsd": "0.5578816119431296"
+        },
+        {
+            "id": "djiboutian-franc",
+            "symbol": "DJF",
+            "currencySymbol": "$",
+            "type": "fiat",
+            "rateUsd": "0.0056163998876720"
+        },
+        {
+            "id": "ves",
+            "symbol": "VES",
+            "currencySymbol": null,
+            "type": "crypto",
+            "rateUsd": "0.0166309547403701"
+        },
+        {
+            "id": "bermudan-dollar",
+            "symbol": "BMD",
+            "currencySymbol": "$",
+            "type": "fiat",
+            "rateUsd": "1.0000000000000000"
+        },
+        {
+            "id": "silver-ounce",
+            "symbol": "XAG",
+            "currencySymbol": null,
+            "type": "fiat",
+            "rateUsd": "14.1654716910839260"
+        },
+        {
+            "id": "united-states-dollar",
+            "symbol": "USD",
+            "currencySymbol": "$",
+            "type": "fiat",
+            "rateUsd": "1.0000000000000000"
+        },
+        {
+            "id": "cambodian-riel",
+            "symbol": "KHR",
