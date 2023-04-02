@@ -1026,3 +1026,38 @@
         {
             "id": "cambodian-riel",
             "symbol": "KHR",
+            "currencySymbol": "៛",
+            "type": "fiat",
+            "rateUsd": "0.0002454256914164"
+        },
+        {
+            "id": "south-korean-won",
+            "symbol": "KRW",
+            "currencySymbol": null,
+            "type": "fiat",
+            "rateUsd": "0.0008913291500285"
+        },
+        {
+            "id": "danish-krone",
+            "symbol": "DKK",
+            "currencySymbol": "kr",
+            "type": "fiat",
+            "rateUsd": "0.1558894569154278"
+        },
+        {
+            "id": "fijian-dollar",
+            "symbol": "FJD",
+            "currencySymbol": "$",
+            "type": "fiat",
+            "rateUsd": "0.4699153165608026"
+        },
+        {
+            "id": "angolan-kwanza",
+            "symbol": "AOA",
+            "currencySymbol": "Kz",
+            "type": "fiat",
+            "rateUsd": "0.0035653738027029"
+        },
+        {
+            "id": "venezuelan-bolívar-fuerte",
+            "symbol": "VEF",
