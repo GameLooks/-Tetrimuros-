@@ -1132,3 +1132,37 @@
             "id": "iraqi-dinar",
             "symbol": "IQD",
             "currencySymbol": "د.ع",
+            "type": "fiat",
+            "rateUsd": "0.0008381503622707"
+        },
+        {
+            "id": "hungarian-forint",
+            "symbol": "HUF",
+            "currencySymbol": "Ft",
+            "type": "fiat",
+            "rateUsd": "0.0035662994558672"
+        },
+        {
+            "id": "waves",
+            "symbol": "WAVES",
+            "currencySymbol": null,
+            "type": "crypto",
+            "rateUsd": "1.9555681095892383"
+        },
+        {
+            "id": "samoan-tala",
+            "symbol": "WST",
+            "currencySymbol": "$",
+            "type": "fiat",
+            "rateUsd": "0.3863192008755538"
+        },
+        {
+            "id": "laotian-kip",
+            "symbol": "LAK",
+            "currencySymbol": "₭",
+            "type": "fiat",
+            "rateUsd": "0.0001173846941993"
+        },
+        {
+            "id": "cuban-convertible-peso",
+            "symbol": "CUC",
