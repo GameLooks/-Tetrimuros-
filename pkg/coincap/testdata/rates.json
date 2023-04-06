@@ -1061,3 +1061,37 @@
         {
             "id": "venezuelan-bolívar-fuerte",
             "symbol": "VEF",
+            "currencySymbol": "Bs",
+            "type": "fiat",
+            "rateUsd": "0.0000040246030600"
+        },
+        {
+            "id": "mauritanian-ouguiya-(pre-2018)",
+            "symbol": "MRO",
+            "currencySymbol": null,
+            "type": "fiat",
+            "rateUsd": "0.0028011204481793"
+        },
+        {
+            "id": "dogecoin",
+            "symbol": "DOGE",
+            "currencySymbol": null,
+            "type": "crypto",
+            "rateUsd": "0.0049150411179320"
+        },
+        {
+            "id": "kazakhstani-tenge",
+            "symbol": "KZT",
+            "currencySymbol": "лв",
+            "type": "fiat",
+            "rateUsd": "0.0027031410499000"
+        },
+        {
+            "id": "afghan-afghani",
+            "symbol": "AFN",
+            "currencySymbol": "؋ ",
+            "type": "fiat",
+            "rateUsd": "0.0135242963984799"
+        },
+        {
+            "id": "egyptian-pound",
