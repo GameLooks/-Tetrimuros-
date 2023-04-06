@@ -1095,3 +1095,40 @@
         },
         {
             "id": "egyptian-pound",
+            "symbol": "EGP",
+            "currencySymbol": "£",
+            "type": "fiat",
+            "rateUsd": "0.0558955870434029"
+        },
+        {
+            "id": "trinidad-and-tobago-dollar",
+            "symbol": "TTD",
+            "currencySymbol": "TT$",
+            "type": "fiat",
+            "rateUsd": "0.1483822623843546"
+        },
+        {
+            "id": "peruvian-nuevo-sol",
+            "symbol": "PEN",
+            "currencySymbol": "S/.",
+            "type": "fiat",
+            "rateUsd": "0.3010216675396295"
+        },
+        {
+            "id": "bangladeshi-taka",
+            "symbol": "BDT",
+            "currencySymbol": "Tk",
+            "type": "fiat",
+            "rateUsd": "0.0119343135382853"
+        },
+        {
+            "id": "serbian-dinar",
+            "symbol": "RSD",
+            "currencySymbol": "Дин.",
+            "type": "fiat",
+            "rateUsd": "0.0098251216767631"
+        },
+        {
+            "id": "iraqi-dinar",
+            "symbol": "IQD",
+            "currencySymbol": "د.ع",
