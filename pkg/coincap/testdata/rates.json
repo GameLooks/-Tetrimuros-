@@ -1166,3 +1166,24 @@
         {
             "id": "cuban-convertible-peso",
             "symbol": "CUC",
+            "currencySymbol": "$",
+            "type": "fiat",
+            "rateUsd": "1.0000000000000000"
+        },
+        {
+            "id": "saint-helena-pound",
+            "symbol": "SHP",
+            "currencySymbol": "£",
+            "type": "fiat",
+            "rateUsd": "1.2927479425916495"
+        },
+        {
+            "id": "cape-verdean-escudo",
+            "symbol": "CVE",
+            "currencySymbol": "$",
+            "type": "fiat",
+            "rateUsd": "0.0105457421566043"
+        }
+    ],
+    "timestamp": 2130914394831867904
+}
