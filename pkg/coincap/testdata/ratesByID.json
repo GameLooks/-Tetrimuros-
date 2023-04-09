@@ -1,4 +1,6 @@
 {
     "data": {
         "id": "bitcoin",
-        "symbol": "
+        "symbol": "BTC",
+        "currencySymbol": "₿",
+  
