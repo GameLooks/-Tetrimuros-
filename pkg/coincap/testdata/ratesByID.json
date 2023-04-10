@@ -3,4 +3,5 @@
         "id": "bitcoin",
         "symbol": "BTC",
         "currencySymbol": "₿",
-  
+        "type": "crypto",
+        "rat
