@@ -3,4 +3,5 @@
         {
             "id": "romanian-leu",
             "symbol": "RON",
-            "currencySymbol": 
+            "currencySymbol": "lei",
+            "type":
