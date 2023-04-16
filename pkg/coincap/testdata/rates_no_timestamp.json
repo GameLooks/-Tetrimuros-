@@ -4,4 +4,5 @@
             "id": "romanian-leu",
             "symbol": "RON",
             "currencySymbol": "lei",
-            "type":
+            "type": "fiat",
+            "rateUsd
