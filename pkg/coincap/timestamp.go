@@ -5,4 +5,4 @@ import (
 	"time"
 )
 
-// Timestam
+// Timestamp is wrapper around time.Time w
