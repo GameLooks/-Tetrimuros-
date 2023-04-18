@@ -6,4 +6,4 @@ import (
 )
 
 // Timestamp is wrapper around time.Time with custom marshaling behaviour
-//
+// specific to the format returned
