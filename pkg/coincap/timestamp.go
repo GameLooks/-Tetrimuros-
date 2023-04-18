@@ -5,4 +5,5 @@ import (
 	"time"
 )
 
-// Timestamp is wrapper around time.Time w
+// Timestamp is wrapper around time.Time with custom marshaling behaviour
+//
