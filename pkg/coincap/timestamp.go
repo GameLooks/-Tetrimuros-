@@ -7,4 +7,8 @@ import (
 
 // Timestamp is wrapper around time.Time with custom marshaling behaviour
 // specific to the format returned by the CoinCap API
-type Timesta
+type Timestamp struct {
+	time.Time
+}
+
+// Un
