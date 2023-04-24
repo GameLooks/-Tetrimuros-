@@ -11,4 +11,4 @@ type Timestamp struct {
 	time.Time
 }
 
-// Un
+// UnmarshalJSON implements json
