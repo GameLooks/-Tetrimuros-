@@ -12,4 +12,4 @@ type Timestamp struct {
 }
 
 // UnmarshalJSON implements json.Unmarshaler
-// Custom unmarshal
+// Custom unmarshaller to handle that the timestamp is no
