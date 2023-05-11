@@ -15,3 +15,4 @@ type Timestamp struct {
 // Custom unmarshaller to handle that the timestamp is not in a standard format
 func (t *Timestamp) UnmarshalJSON(b []byte) error {
 
+	// CoinCap timestamp is unix mill
