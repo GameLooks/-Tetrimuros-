@@ -16,4 +16,5 @@ type Timestamp struct {
 func (t *Timestamp) UnmarshalJSON(b []byte) error {
 
 	// CoinCap timestamp is unix milliseconds
-	m, err := strconv.Par
+	m, err := strconv.ParseInt(string(b), 10, 64)
+	if err != nil
