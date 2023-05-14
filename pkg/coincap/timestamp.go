@@ -20,4 +20,5 @@ func (t *Timestamp) UnmarshalJSON(b []byte) error {
 	if err != nil {
 		return err
 	}
-	// Convert from millis
+	// Convert from milliseconds to nanoseconds
+	t.Time = t
