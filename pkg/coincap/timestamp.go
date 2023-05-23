@@ -25,4 +25,4 @@ func (t *Timestamp) UnmarshalJSON(b []byte) error {
 	return nil
 }
 
-// M
+// MarshalJSON implements json.Marshaler
