@@ -26,4 +26,4 @@ func (t *Timestamp) UnmarshalJSON(b []byte) error {
 }
 
 // MarshalJSON implements json.Marshaler
-func (t *Timestamp) Mar
+func (t *Timestamp) MarshalJSON() ([]byte, error) {
