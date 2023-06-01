@@ -27,3 +27,4 @@ func (t *Timestamp) UnmarshalJSON(b []byte) error {
 
 // MarshalJSON implements json.Marshaler
 func (t *Timestamp) MarshalJSON() ([]byte, error) {
+	return []byte(strconv.Itoa(int(t.Un
