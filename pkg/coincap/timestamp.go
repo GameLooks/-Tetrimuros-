@@ -30,4 +30,5 @@ func (t *Timestamp) MarshalJSON() ([]byte, error) {
 	return []byte(strconv.Itoa(int(t.UnixNano() / 1e6))), nil // convert to milliseconds
 }
 
-// String implemen
+// String implements stringer
+func (t *Timestamp
