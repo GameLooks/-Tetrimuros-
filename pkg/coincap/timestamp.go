@@ -31,4 +31,5 @@ func (t *Timestamp) MarshalJSON() ([]byte, error) {
 }
 
 // String implements stringer
-func (t *Timestamp
+func (t *Timestamp) String() string {
+	return strconv.It
